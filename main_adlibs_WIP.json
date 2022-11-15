@@ -1,0 +1,87 @@
+{
+ "@swear": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "swear",
+   "noswear"
+  ],
+  "interrupt": {}
+ },
+ "@clean": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "messy",
+   "tidy",
+   "normal"
+  ],
+  "interrupt": {}
+ },
+ "@mood": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "bad",
+   "good",
+   "depressed",
+   "normal"
+  ],
+  "interrupt": {}
+ },
+ "@place": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "city",
+   "town",
+   "bumfuck"
+  ],
+  "interrupt": {}
+ },
+ "@who": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "cat",
+   "wolf",
+   "rabbit"
+  ],
+  "interrupt": {}
+ },
+ "@wall": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "break",
+   "intact"
+  ],
+  "interrupt": {}
+ },
+ "@sexy": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "porn",
+   "sandwich"
+  ],
+  "interrupt": {}
+ },
+ "@wall~TO": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "DELETE"
+  ],
+  "interrupt": {}
+ },
+ "@why": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "positive",
+   "negative"
+  ],
+  "interrupt": {}
+ }
+}

@@ -1,0 +1,465 @@
+{
+  "0": {
+    "string": "      So, I've been writing this game engine for quite some time. I've been excited about it, and talking about it. Almost nonstop, really. Thing is, I haven't had the language to explain it well at all, and it's just going to be easier to show people what it is that I've been working on. So, welcome to the official prototype of my game engine! Rather, this is one type of prototype. The engine is a powerful tool for making a Choose-Your-Own-Adventure style narrative, which will be demonstrated (partially) here, even though it has separate functionality which I am not choosing to stress test just yet. This is the stress test for my adlib system, which I will start to demonstrate now.\n\n      This story is going to be a @story. Now, I'll try not to break the fourth wall too frequently throughout this narrative. But, this is only a prototype, after all. And it's as much for me as it is for you. Actually, I mean... well, it's equal parts for both of us. But anyway, this is a stress test for my adlib system. I can already see that it's going to get out of hand sort of fast, and might need some tweaks, based on how it's going so far. But that's only because each sequential paragraph will be introducing one new element. I intend to go up to ten. Let's see if we make it. That said, time for the next paragraph, don't you think?\n\n      Now then, like we agreed upon, this is a @story. Except, any good @story is going to need a partner. Now, in the future, I might do some neat stuff like ask for the gender of your partner in @story. However, I'm the author, so I get to make him a male. I'm sorry, that's just, what needs to happen. For this prototype, at least. You do, however, get to 2 @species. And what a @species he is! Although... writing this now, I feel bad forcing gender roles on you, the participant of my wonderful prototype. Which, by the way, thanks so much for bearing witness to it! I've been working really quite exceptionally hard at it. And, to be honest, I'm just dying to see how far I can push this bad boy. So, let's do it. You and me, together. Phew. Here we go. Pronoun city, baby. I know I said that your partner in @story was going to be a guy. But in reality, they're actually @gender. \n\n      Now, I really can't be that upset with myself. I did want to do a stress test of my new engine, after all. Part of me didn't realize that would also, inherently, be a stress test on myself. And I haven't had anywhere near the correct amount of coffee for this @language. In which case, I can't be upset that now I have to correctly gender your @species in your @story. After all, @gender deserves the equal chance to be represented. But man... this is gonna suck to have to write. BUT ANYWAY! I do think that's enough prelude, don't you? We've done enough @language and it's time to get the story moving on. \n\n      Now, then. About that @story. \n\n      The tricky thing about hot-swapping in an entire @story, is that by the nature of telling it through this adlib stress test format, is that the story can't be ENTIRELY about @story. Sure, @story is going to be part of it. An insanely huge part of it. But the narrative which glues all these adlibs together must tell something cohesive, at least. That's got to be an emotional journey, of some sort. When stress testing my engine the other way, I'll be able to do more of a branching pathways situation, which will be challenging in its own way. But this way, it's more like it's me telling the story, still. You're just receiving something unique, based on what you've chosen to receive. So, it's sort of CYOA, but a railroaded one. Anyway, thanks for bearing with me while I talk myself through this all. Again, it is just a prototype, after all. Which means, I just need to lean into it. And, lean we shall. For instance, your @story @gender @species @story.\n\n      It's important to note now that, by nature of how my constructor is set up, I have no idea what I just said there. I can only hope it was tasty as @language.\n\n      You look into @gender. You really want to be able to work this out, because @story. Their @species, @gender, and you @story.\n\n      In all, it leaves you with this strange sensation of loss, for some reason. You can't tell what it is or why, or where it comes from. It's just inexplicably there. You don't want to @story. You just wish there could be another way.\n\n       @wall.\n\n      As I was saying. The @species looks at you, and regards you cooly after you @story. Their @species and @gender approaches you @story. @wall but you can feel something change inside you. You think that you can turn this around. In fact, you're sure of it. You can @story for sure!\n\n      And that's when @wall.",
+    "adlibs": {
+      "battle": {
+        "1": "intense battle scene",
+        "2": "fight",
+        "3": "narration including intense battle",
+        "4": "a fight scene",
+        "5": "this fight scene",
+        "6": "intense fight scene",
+        "7": "combat scene",
+        "8": "action oriented fight scene",
+        "9": "fighting, and swords and battlefields and stuff",
+        "10": "fighting",
+        "11": "fist starts to quiver as you stare your ",
+        "12": "combatant",
+        "13": "two warriors such as yourselves don't deserve to be fighting like this. Sure, even though it's a battle scene, it's still my narrative, and even in a fight scene, the protagonist can be wishing for peace. And that's how you feel right now. You can see the anger written on their face",
+        "14": "think you might be able to work out your differences after all",
+        "15": "have to fight our your differences. You don't want bloodshed. And it turns out that trying to do something so sweepingly broad as a battle scene versus a romance scene, in something like an adlib capacity, is seriously stretching things. These descriptors have to be so broad, so that either thing I slot into position, based on your choices, fits the narrative. But, you kidding me? The entire genre of story!? Yeah, that's a bit of a stretch. Which, hey. It's a prototype for a reason. And now I know that, in a stress test, there are certain parts which the adlib system just wasn't quite meant for",
+        "16": "engage in a brief exchange of fisticuffs. After all, this is the battle track. So, let's have some fucking battle. You throw a punch, he dodges, and catches you squarely in the jaw with a haymaker you somehow didn't see coming. You take a hasty step back, chest huffing in the exertion of your fight",
+        "17": "to resume the fight. There is blood in their eyes, and you can tell that this fight has only just begun",
+        "18": "stop this fight"
+      },
+      "romance": {
+        "1": "steamy romance sccene",
+        "2": "romance",
+        "3": "steamy, beautiful, wonderful and intense love scene",
+        "4": "a romance scene",
+        "5": "this romantic story",
+        "6": "wonderfully romantic tale",
+        "7": "love scene",
+        "8": "romantic plot, which I usually like to write with character involvement and nuance and stuff",
+        "9": "sex, sex, and more sex",
+        "10": "romance, whether it's genuine character connections or, uh... you know. GENUINE character connection, if you catch my drift (i.e. putting it in their butts). And that isn't a gender thing! No matter what you chose earlier! Boys and girls can both do butt stuff! And that isn't a limitation on myself as the author, either. I can write vaginal stuff! I can! Or oral, or weird fetishy things. Or platonic, just like, ordinary slice of life stuff, which has no romance at all. I'm a regular ol' chameleon over here. But I'm getting away from myself. So anyway, romance",
+        "11": "heart starts to throb a little bit, as you look your",
+        "12": "romantic prospect",
+        "13": "two prospective lovers such as yourselves should be able to tangle limbs together with greater ease than what it is you're feeling right now. Because you want them in a strong way, you can feel that draw to your partner strongly. You can only hope that they feel it too. But, surely, they but be able to",
+        "14": "feel like maybe you really can get them in bed with you",
+        "15": "force the narrative into a romance plotline arbitrarily. If you want more information I made a small rant right here on the fight scene branch if you wanted to go check that out. I'm not typing it out again, and I'm tired of trying to write a dual themed story. Stress test successful, because I found the bounds of this awesome new engine I made. And trust me, there's a lot of power in this thing I've made. And I'm so happy with it that I can't even. But it has limits, is all. That's something I found out. And now, you've found it out as well! Although, how are you enjoying the prototype so far? I hope it's fun for you, because it's been a blast for me. Even if it stretches my brain in big ways, it's also been exceptionally fun. AND TAKE THAT, BATTLE TRACK! Sorry. It's just thaat, I've been watching the word count as I'm like, writing this? And I made a small rant on the fight version of this story or whatever. But this one is way longer. I guess the writing of this thing sort of got to me a little bit. I mean, it's fun, don't get me wrong. I guess I just wanted to get out some of those thoughts or something. I've overstayed my selcome, though. Let's get back to the story",
+        "16": "rush forward and press your lips against theirs. However, you quickly remember yourself and take a large step back. That was forward of you, and you hope that they aren't mad",
+        "17": "for reasons you cannot explain. It's hard to read the motions of their tail, or the looks in their eyes. You hope they want to romance you, because you would certainly like to romance them",
+        "18": "get them to fall in love with you"
+      },
+      "cat": {
+        "1": "pointy kitty cat ears, and long, thiwshing tail",
+        "2": "stunning feline specimen",
+        "3": "lithe and slim bodied feline friend",
+        "4": "and lithe formed cat",
+        "5": "tail is curling around actively, and their ears are perked up in high alert. Their nose is twitching in sort of a tight, mouse-ish way. It twitches their whiskers, which is cute, regardless of the tension between you two. Yet",
+        "6": "black furred feline you're squaring off against",
+        "7": "tail thwishes around madly, and their right ear flicks unappreciatively,"
+      },
+      "dog": {
+        "1": "big floppy ears, and his droopy face. He's that kind of a dog",
+        "2": "dog",
+        "3": "droopy eared bassed hound buddy",
+        "4": "strongly snouted",
+        "5": "floppy ears seem to be getting in their way. Or, at least, if you had floppy ears like that you bet they'd get awfully annoying. But I'm sure that they're used to it. This is an odd descriptor to try and work into an empty story slot, by the way. I don't know if this if a fight scene or a romance scene when I'm writing this, and this is literally the prototype, like I've been saying. So I'm also having a hard time keeping track of it all, EVEN THOUGH I WROTE AN ENTIRE PROGRAM LITERALLY TO HELP ME DO THAT. Granted, it's working wonders already, and I'm pretty sure this is just on my end. And I have to remember that this is a stress test. And it's my first time doing this. So, of course it gets a little head fucky. Point is, the furry you're with has floppy ears. Congratulations. Also",
+        "6": "brown furred basset hound that you're opposite of",
+        "7": "eyes stare down at you from their cute, wrinkly muzzle,"
+      },
+      "boy": {
+        "1": "a boy. They're actually just, a boy, like I was saying all along. False alarm about that gender thing. They're definitely a boy",
+        "2": "this wonderful male",
+        "3": "masculine",
+        "4": "his eyes",
+        "5": "you can see in his eyes that",
+        "6": "the boy you've been regarding so carefully all this time"
+      },
+      "girl": {
+        "1": "a girl. And, in retrospect, I don't even know why it was such a scary thing for me to approach. It isn't even THAT hard of a thing to wrap my head around. And even if we did go the route of like, a HIGHLY erotic story, I've written that before. I could do it again. It just isn't my forte. And, it is my forte. I mean, I know that this is just a prototype and all. And most people I'm showing this to probably aren't familiar with my body of work. But I actually write (what I think is) pretty good erotic fiction! I have a modest amount of followers to back that up. And I mean, super modest, so don't get ahead of yourself. It's only like 100 people across my two accounts. But people do seem to like the stories that I write! So point being, I can write fiction about girls too! I just, well. I'm a dude. And I'm into dudes. What can I say, I like dudes. But girls deserve representation too! So, get on in here, enjoyers of ladies! Because there's room at this table for us all! LET THE VAGINAS ROLL",
+        "2": "this captivating female furry",
+        "3": "feminine",
+        "4": "her eyes",
+        "5": "in her eyes there reflects a certain something which resonates within your self. It's familiar",
+        "6": "the girl you've been keeping your eye on"
+      },
+      "dirty": {
+        "1": "shit",
+        "2": "fucking around",
+        "3": "fuck"
+      },
+      "clean": {
+        "1": "nonsense",
+        "2": "procrastinating",
+        "3": "a delightful slice of apple pie, a la mode or con leche, however you prefer. Or you could just say whether you want ice cream or not. Leave that fancy con leche nonsense outta this. It's apple pie you're talking about. Get your con leche outta here"
+      },
+      "break": {
+        "1": "God, writing this is seriously stretching my head.",
+        "2": "This is getting out of hand to write by this point, and unfortunately, I did mess up the part where I was working with my engine. I only gave you the chance to break the wall, when I wanted you to have the option to play it straight. And sure, I could have edited by hand after I constructed the whole thing, but I didn't want to deal with that. Just another leak I found during this stress test. Thing is, I haven't been especially good about not breaking things up to this point. So when the time comes to write another section where I break the narration, I'm just sort of thinking like, man, let me drink my coffee and finish this stress test so I can get on with my life. WHICH IS NOT TO SAY THAT I'M NOT GRATEFUL FOR YOU FOR CHECKING OUT MY STRESS TEST! IT'S A PROTOTYPE AND I'M LEARNING DON'T JUST ME anyway, back to it. Yes, there was a wall break,",
+        "3": "the story ends"
+      }
+    },
+    "points": [
+      "01"
+    ]
+  },
+  "adlibcategories": {
+    "@story": {
+      "occurence": 0,
+      "set to": null,
+      "options": [
+        "battle",
+        "romance"
+      ],
+      "interrupt": {
+        "player choices": {
+          "battle": "It's going to be a fight scene!",
+          "romance": "Let's make it a romantic scene."
+        },
+        "interrupt adlibs": {
+          "battle": "battle scene.",
+          "romance": "romance scene."
+        },
+        "first interrupt": "...time to decide what kind of story this is going to be.",
+        "interrupt return": "That's a good call, let's do a "
+      }
+    },
+    "@species": {
+      "occurence": 0,
+      "set to": null,
+      "options": [
+        "cat",
+        "dog"
+      ],
+      "interrupt": {
+        "player choices": {
+          "cat": "A kitty-cat!",
+          "dog": "I want the furry in this narrative to be a dog."
+        },
+        "interrupt adlibs": {
+          "cat": "strapping young housecat on our hands.",
+          "dog": "canine to work it."
+        },
+        "first interrupt": "... so, what kind of furry are we dealing with?",
+        "interrupt return": "Sure thing my dude. We've got a "
+      }
+    },
+    "@gender": {
+      "occurence": 0,
+      "set to": null,
+      "options": [
+        "boy",
+        "girl"
+      ],
+      "interrupt": {
+        "player choices": {
+          "boy": "Don't sweat it, you can still write a story about a boy.",
+          "girl": "It's about a girl! Thanks for the option, by the way. Although, for the record, I don't love that you've been making such a fuss about it."
+        },
+        "interrupt adlibs": {
+          "boy": "scene about a boy. That's what I'm most comfortable with, anyway.",
+          "girl": "scene about a girl. And for what it's worth, I agree with you. Thing is, I could go back and edit all of this, to tidy up the dialogue, and change how much I've been bitching about gender and all that. But it's more from a mechanical perspective (not the mechanics of how heterosexual intercourse works in an erotic text, I can handle that). But doing pronouns extensively using the engine as is, it's a messy prospect. Sorry the thing came across as super misogynistic and gross, though. Totally not my intention. And I apologize for it. Anyway, a scene about a girl it is!"
+        },
+        "first interrupt": "... alright, then. What's our partner's gender going to be in this story?",
+        "interrupt return": "You got it. I'll write a "
+      }
+    },
+    "@language": {
+      "occurence": 0,
+      "set to": null,
+      "options": [
+        "dirty",
+        "clean"
+      ],
+      "interrupt": {
+        "player choices": {
+          "dirty": "Sure, go for it. Be as expletive as you like.",
+          "clean": "Keep it clean, please. I have gentle sensibilities."
+        },
+        "interrupt adlibs": {
+          "dirty": "as fucking dirty as I want it to be. Sailor's mouth bitch tits ass fuck let's go BOYOOOO!!!!!!",
+          "clean": "squeaky clean and funky fresh. No sentence enhancers for us! High-five for the Spongebob reference? No? Okay :("
+        },
+        "first interrupt": "... can I curse when I'm writing the narration?",
+        "interrupt return": "No problem. I'll keep the dialogue "
+      }
+    },
+    "@wall": {
+      "occurence": 0,
+      "set to": null,
+      "options": [
+        "break"
+      ],
+      "interrupt": {
+        "player choices": {
+          "break": "Uh.. break it all you want, I guess? I dunno, there's only one option for me to choose right now, so I don't really know what to say."
+        },
+        "interrupt adlibs": {
+          "break": "there's only one option here. And fixing it in post would have been really messy based on how I have this set up right now. That's why this is just a prototype, after all. So, hate to break it to you (get it? BREAK!?! :D), but I'll be breaking the 4th wall a bit. But, don't worry, the scene actually didn't end up being all that intense. It only happens a few times, and to be honest, I break the wall a few times anyway. So, don't take it too serious. Anyway, let's get back to it."
+        },
+        "first interrupt": "... how do we feel about breaking the fourth wall for the duration of the narrative?",
+        "interrupt return": "Yeah, that's fair. I accidentally pressed enter at the wrong time, so "
+      }
+    }
+  },
+  "01": {
+    "string": "That was... a lot. I mean, it was cool. But it was a lot. It was super neat though, it really was! And I'm grateful that I had the opportunity to engage in your stress test!",
+    "points": [
+      "010"
+    ]
+  },
+  "010": {
+    "string": "Thank you! I really appreciate you saying that. Because, I assure you, it wasn't easy to do.",
+    "points": [
+      "0101"
+    ]
+  },
+  "0101": {
+    "string": "I believe it. But, uh... what happens now?",
+    "points": [
+      "01010"
+    ]
+  },
+  "01010": {
+    "string": "Well, I sort of think I'm going to go do something else with my day, for the time being. But, again, thanks so much for checking out this quick prototype! It was seriously helpful on my end.",
+    "points": [
+      "010101",
+      "010102"
+    ]
+  },
+  "010101": {
+    "string": "Hey, no problem!",
+    "points": [
+      "0101010"
+    ]
+  },
+  "0101010": {
+    "string": "Radical. Anyway, have a good day!",
+    "points": "end()"
+  },
+  "010102": {
+    "string": "Wait, why are there two choices now? I thought you were only stress testing one part of the engine, and not both?",
+    "points": [
+      "0101020"
+    ]
+  },
+  "0101020": {
+    "string": "Yeah, well, I thought so, too. I really, really did! But, the thing is, my engine is really quite powerful. And, after I've gotten over myself about the whole stress testing thing, well, there's no reason not to just keep it rolling. Let's make a narrative of this, shall we? Or, at least, we'll give it another shot. What do you say?",
+    "points": [
+      "01010201",
+      "01010202",
+      "01010203"
+    ]
+  },
+  "01010201": {
+    "string": "Eh, I'm grateful for the opportunity, but no offence, I do think I've seen enough. It's a cool game so far, though! And you're really handsome and smart and I would do you in a heartbeat!",
+    "points": [
+      "010102010"
+    ]
+  },
+  "010102010": {
+    "string": "Aww, you didn't have to say that. About the doing me thing. As far as you being ready to be done, well, shoot. That's understandable. I'm ready to be done with this too. Unfortunately for me, my work is probably only... halfway done, or so? On the construction of the prototype itself. Then I have to smooth over some of the edges of it, still. So, I'll still be plugging away writing this thing. But you can go off and be free now! Thanks for playing! And, you know what? I would do you too ;)",
+    "points": "end()"
+  },
+  "01010202": {
+    "string": "Yeah sure, bring it on. I'm enjoying this so far, so let's keep the prototype going. Give me your worst. Also for what it's worth, I think you're really handsome in this dialogue option too, and I would do you in a heartbeat!",
+    "points": [
+      "010102020"
+    ]
+  },
+  "010102020": {
+    "string": "Aww, hell yea! Let's keep this train rolling! And I would do you as well! And fuck your handsome too. Or, pretty, if you'd rather be that. But, @language yeah. Let's keep this test rolling! \n\n      ... or, that's what I would say, if I didn't just now attempt to insert another adlib, and get this massive wave of ugh. I do want to keep the test going, but I honestly shouldn't. It's time to be done.",
+    "adlibs": {
+      "dirty": {
+        "1": "fuck"
+      },
+      "clean": {
+        "1": "gosh-darn it! Heck"
+      }
+    },
+    "points": [
+      "0101020201",
+      "0101020202"
+    ]
+  },
+  "01010203": {
+    "string": "You know what, I just disagree that you keep making me say that I'd do you. So, on principle, in this response option, I am deciding not to do you. That's right. I said it. I won't do you.",
+    "points": [
+      "010102030"
+    ]
+  },
+  "010102030": {
+    "string": "... \n\n      ... \n\n      ...\n\n      You know what, that's fair. But, I would still do you. If that's a lot for me to say, I apologize. I don't mean to be crass. It's just meant as a compliment. Although, I am getting a little tired of this game, so this is where this particular tree is going to end. Thanks for playing my prototype, though!",
+    "points": "end()"
+  },
+  "0101020201": {
+    "string": "Oh, okay. But that's sort of a let down. I was genuinely having a lot of fun!",
+    "points": [
+      "01010202010"
+    ]
+  },
+  "01010202010": {
+    "string": "Wait, really? Because that means a lot to me. I've been working really hard on this for a long time! I mean, just ask your @species friend. They only exist because of you, and you know whaat, I'm taking the reins. Your @story is now @story. I think I can probably keep the train rolling if we keep that in mind. That is, if you really do want to.",
+    "adlibs": {
+      "cat": {
+        "1": "kitty cat"
+      },
+      "dog": {
+        "1": "hound dog"
+      },
+      "battle": {
+        "1": "fight scene",
+        "2": "a romantic scene"
+      },
+      "romance": {
+        "1": "romance scene",
+        "2": "actually just erotica"
+      }
+    },
+    "points": [
+      "010102020101",
+      "010102020102"
+    ]
+  },
+  "0101020202": {
+    "string": "You know though, I do think this could use more of a narrative of some sort? This is just dialogue options and trees and stuff. But it doesn't seem like much of a stress test to me, if I'm being completely honest.",
+    "points": [
+      "01010202020"
+    ]
+  },
+  "01010202020": {
+    "string": "Well, that's fine. And there can be other gameplay elements used in this part of the engine. I'm just not being very inventive about it right now. Which is why it's honestly probably time to kill the branches so I can tidy this up.",
+    "points": [
+      "010102020201",
+      "010102020202"
+    ]
+  },
+  "010102020101": {
+    "string": "Actually, I don't feel like committing to a whole new thing after all.",
+    "points": [
+      "0101020201010"
+    ]
+  },
+  "0101020201010": {
+    "string": "And you know what, that's actually perfectly fair. Thanks for playing through my prototype all the same!",
+    "points": "end()"
+  },
+  "010102020102": {
+    "string": "Yeah, sure man. Sounds great!",
+    "points": [
+      "0101020201020"
+    ]
+  },
+  "0101020201020": {
+    "string": "Okay, then! *Blows air on my fingertips in a dramatic fashion and exaggeratedly begins to type on the keyboard.*\n\n      Let's get started.\n\n      ... and this is where the story would continue, if I was ready for that. But I need to reduce my scope. This is, after all, just a prototype. So, another time. But, do let me know what you think so far!",
+    "points": "end()"
+  },
+  "010102020201": {
+    "string": "Sounds good.",
+    "points": [
+      "0101020202010"
+    ]
+  },
+  "0101020202010": {
+    "string": "Cool. Thanks for playing!!!!!",
+    "points": "end()"
+  },
+  "010102020202": {
+    "string": "Wait, you're really just going to end it? Coward.",
+    "points": [
+      "0101020202020"
+    ]
+  },
+  "0101020202020": {
+    "string": "What? Get out of here. I'm not a coward.",
+    "points": [
+      "01010202020201"
+    ]
+  },
+  "01010202020201": {
+    "string": "Uh... yeah you are.",
+    "points": [
+      "010102020202010"
+    ]
+  },
+  "010102020202010": {
+    "string": "... Uh, no, I'm not. And that's rude of you to say.",
+    "points": [
+      "0101020202020101"
+    ]
+  },
+  "0101020202020101": {
+    "string": "Well, it's not like you gave me much of a choice, now is there?",
+    "points": [
+      "01010202020201010"
+    ]
+  },
+  "01010202020201010": {
+    "string": "Pfft. Whatever. You had a choice. And you chose to say something mean. I'm not a coward!",
+    "points": [
+      "010102020202010101",
+      "010102020202010102"
+    ]
+  },
+  "010102020202010101": {
+    "string": "Wait, go back a second. You didn't give me a choice. You like, legitimately didn't give me a choice. Even now, there isn't a choice. Like, there isn't a choice. Absolutely certainly definitely, I don't have a choice. There is only one choice I can make. This is the one and only dialogue option I can choose. For sure and I mean it. Why would you do that to me?",
+    "points": [
+      "0101020202020101010"
+    ]
+  },
+  "0101020202020101010": {
+    "string": "I'm actually really confused by what you're saying to me right now.",
+    "points": [
+      "01010202020201010101"
+    ]
+  },
+  "010102020202010102": {
+    "string": "This is the second choice.",
+    "points": [
+      "0101020202020101020"
+    ]
+  },
+  "0101020202020101020": {
+    "string": "No it's not.",
+    "points": "end()"
+  },
+  "01010202020201010101": {
+    "string": "... you know, for a game developer, you're pretty weird. In a non-offensive way, of course! It's just that, it is a really weird way of telling a story. Like, really weird. But I dig it. Even if there's only one option (for real this time).",
+    "points": [
+      "010102020202010101010"
+    ]
+  },
+  "010102020202010101010": {
+    "string": "Thank you for appreciating that about me. Because I'll be honest, I do have a bad habit of talking down on myself. I mean, all of us have esteem issues, for sure. But doing something like... objectively silly like this? It's easy, and I mean SO EASY to tell yourself that what I'm doing is dumb or stupid, or that nobody will play it, or whatever. Right? But then it gets better when I remember that I'm having fun with it. And if I'm having fun, then ostenisbly that means someone else could have fun with it, too, right? I mean, that's the ethic I take with me into the stories that I write. I write stuff I find engaging, and other people engage with it too! It's super exciting whenever that happens! And this is just, another form of that. It's super neat. It's been a fun experience, and honestly, thank you for taking part in it!",
+    "points": [
+      "0101020202020101010101"
+    ]
+  },
+  "0101020202020101010101": {
+    "string": "You're super welcome.",
+    "points": [
+      "01010202020201010101010"
+    ]
+  },
+  "01010202020201010101010": {
+    "string": "Heck yeah.",
+    "points": [
+      "010102020202010101010101"
+    ]
+  },
+  "010102020202010101010101": {
+    "string": "... so, uh. What happens now?",
+    "points": [
+      "0101020202020101010101010"
+    ]
+  },
+  "0101020202020101010101010": {
+    "string": "Eh, I duno. I'm having fun with this branch right now. But, I can't tidy up all the other ones until I finish this one. And I don't have the energy right now for an actual narrative. So I think I really should call it a day for this branch. But thank you for seeking to explore down this one! It means a lot to me. And do let me know if you enjoyed it or whatever. And remember it's just a prototype!",
+    "points": [
+      "01010202020201010101010101"
+    ]
+  },
+  "01010202020201010101010101": {
+    "string": "You got it, Finn. Will do <3 Take care!",
+    "points": [
+      "010102020202010101010101010"
+    ]
+  },
+  "010102020202010101010101010": {
+    "string": "You too, boo! *kisses*",
+    "points": "end()"
+  }
+}

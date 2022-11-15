@@ -1,0 +1,127 @@
+#:kivy 2.1.0
+#:import Factory kivy.factory.Factory
+
+    #Original Border Pixel Count: 2550, 3300
+        #size_hint(sh) = ratio of center, sub border x 2
+        #pos_hint(ph) = origin point, sub ratio of x and y border
+        # size_hint: .8118, .8545
+        # pos_hint: {'x': .0941176, 'y': .0727274}
+
+#:set shx .8118
+#:set shy .8545
+#:set phx .0941176
+#:set phy .0727274
+WindowManager:
+
+    GameWindow:
+    SceneWindow:
+
+<BackgroundColor@Widget>
+    background_color: 1, 1, 1, 1
+    canvas.before:
+        Color:
+            rgba: root.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+<ColoredLabel@Label+BackgroundColor>
+    background_color: 0, 0, 0, .9
+
+<HelpPopup@Popup>:
+    size_hint: .6, .6
+    pos_hint: {"right": 1, "y": .09}
+    auto_dismiss: False
+    title: "Help Window"
+    background_color: 1, .1, .1, 1
+    BoxLayout:
+        orientation: 'vertical'
+        ColoredLabel:
+            background_color: 0, .15, .5, .2
+            text: 'Right now the game is limited in capability.\nThis box will contain bits of help and other useful info over time.\nRight now, it is without too much use.\n\n\nA few of the commands are:\nlook around\ngo to\nlook at'
+            font_size: 16
+        Button:
+            size_hint: 1, .1
+            text: 'Close me!'
+            on_release: root.dismiss()
+
+<BackgroundImage@Image>:
+    Image:
+        source: 'pageborder.jpg'
+        size: root.width, root.height
+        size_hint: None, None
+        keep_ratio: False
+        allow_stretch: True
+        color: .8, 0, .6, 1
+<StandardDisplay@BoxLayout>:
+    orientation: 'vertical'
+    size_hint: shx, shy
+    pos_hint: {'x': phx, 'y': phy}
+
+<GameWindow>:
+    name: 'game'
+    BackgroundImage:
+    
+    #Formatted BoxLayout
+    StandardDisplay:
+        
+        # The Game Text
+        ScrollView:
+            ColoredLabel:
+                id: game_display
+                text_size: self.width, None
+                font_size: 20
+                text: root.introduction_text
+                halign: 'center'
+                height: self.texture_size[1]
+                size_hint_y: None
+
+        #Player Input Section
+        BoxLayout:
+            size_hint: 1, .1
+            pos_hint: {'x': 0, 'y': 0}
+            TextInput:
+                id: text_input
+                size_hint: .8, 1
+                hint_text: 'What will you do?'
+                multiline: False
+                focus: True
+                text_validate_unfocus: False
+                on_text_validate: root.on_text_validate()
+
+            #Transition to Scene Window
+            Button:
+                size_hint: .1, 1
+                text_size: self.width, None
+                halign: 'center'
+                text: 'Transition to Scene Window'
+                on_release: app.root.current = "scene"
+
+            #HELP Button
+            Button:
+                id: help_button
+                size_hint: .1, 1
+                text: 'HELP'
+                on_release: Factory.HelpPopup().open()
+
+<SceneWindow>:
+    name: 'scene'
+    BackgroundImage:
+    StandardDisplay:
+        ScrollView:
+
+            Label:
+                id: scene_display
+                text_size: self.width, None
+                font_size: 26
+                text: 'Welcome to the scene window!\nThis is placeholder until I am ready to implement it the right way.'
+                halign: 'center'
+                height: self.texture_size[1]
+                size_hint_y: None
+
+        Button:
+            text: 'Back to Game Window'
+            halign: 'center'
+            text_size: self.width, None
+            size_hint: 1, .1
+            on_release: app.root.current = 'game'
