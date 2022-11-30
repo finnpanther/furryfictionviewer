@@ -1,0 +1,105 @@
+{
+ "@sexy": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "clean",
+   "erotic"
+  ],
+  "interrupt": {
+   "player choices": {
+    "clean": "Let's keep the story clean",
+    "erotic": "I want to read a steamy gay erotica!"
+   },
+   "interrupt adlibs": {
+    "clean": "a story about your nice, platonic friend, who comes over to make sandwiches with you.",
+    "erotic": "a wonderful tale including gay sex and stuff. Should be good!"
+   },
+   "first interrupt": "... are we going to make this story erotic, or keeps it clean?",
+   "interrupt return": "Sounds good to me. We'll write "
+  }
+ },
+ "@wall": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "break",
+   "intact"
+  ],
+  "interrupt": {
+   "player choices": {
+    "break": "Sure, go for it. Sounds kind of fun.",
+    "intact": "I'd rather if you kept the story straight, if that's okay. Breaking the wall might take me out of the fiction."
+   },
+   "interrupt adlibs": {
+    "break": "go ahead and type out whatever wall-breaky thoughts come to me during writing.",
+    "intact": "keep the story tidy, and avoid breaking the narrative where possible."
+   },
+   "first interrupt": "... real quick, do you mind if I break the fourth wall now and then?",
+   "interrupt return": "You got it. I'll "
+  }
+ },
+ "@love": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "love",
+   "casual"
+  ],
+  "interrupt": {
+   "player choices": {
+    "love": "I yearn for Rodney's affection, and want our relationship to become something more.",
+    "casual": "I like this casual thing we've got going on. I prefer to keep things no strings attached."
+   },
+   "interrupt adlibs": {
+    "love": "would desire additional affection from Rodney. Hopefully he comes to see that kind folks like you and I are worth it.",
+    "casual": "enjoy keeping things loosy-goosy. If it ain't broke, don't fix it, am I right or am I right?"
+   },
+   "first interrupt": "... so, you've got this casual buddy Rodney. Are you happy with it being a casual thing between you two, or do you want it to become something more?",
+   "interrupt return": "You got it. I, too, "
+  }
+ },
+ "@clean": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "messyhappy",
+   "messysad",
+   "clean"
+  ],
+  "interrupt": {
+   "player choices": {
+    "messyhappy": "My room is messy, but I like it that way.",
+    "messysad": "It's pretty messy, and honestly it kind of bums me out. I wish I wasn't such a messy person, but it kind of just happens, you know?",
+    "clean": "It's tidy."
+   },
+   "interrupt adlibs": {
+    "messyhappy": "a bit of a mess, but that gives it character. Besides, it's well lived in, as a proper life should be.",
+    "messysad": "honestly pretty messy. And sure, sometimes life gets in the way, and it can be hard to stay on top of keeping things clean. You just wish there wasn't so much life happening all of the time always, because your room is messy all the time, and honestly it kind of bums you out. To be fair mate, it bums me out too. Not my room - my room is fine. But your room. It's messy. And I forgive you for that - honestly, it's fine. I just wish you could learn to forgive yourself for it as well. I mean, small mistakes are okay. But sometimes that's hard to keep in mind. But, hang in there, bud. We'll get through this together, because you're worth it. Even if your room is a bit of a mess.",
+    "clean": "clean and tidy. It reflects the person you are - fastidious, neat. Orderly. Your room is nicely put together. Same as you <3"
+   },
+   "first interrupt": "... what's the status of your room, anyway? It might affect the rest of your apartment, too, but mostly it's about the state of your bedroom. I'm just curious, really.",
+   "interrupt return": "Of course! How could I forget? Your room is "
+  }
+ },
+ "@location": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "city",
+   "country"
+  ],
+  "interrupt": {
+   "player choices": {
+    "city": "I live in a city! Right in the heart of downtown.",
+    "country": "It's a small town, for sure. Sounds quaint."
+   },
+   "interrupt adlibs": {
+    "city": "in the city. The bustle of people excites you. Always has, and always will.",
+    "country": "in the quintessential small town. It's beautiful. And so are you <3"
+   },
+   "first interrupt": "... do you live in a city, or is it a small mountainy town?",
+   "interrupt return": "You got it bud. You live "
+  }
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "@swear": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "swear",
+   "noswear"
+  ],
+  "interrupt": {
+   "player choices": {
+    "swear": "I mean, sure. Go for it my man.",
+    "noswear": "Uh... probably try to keep it clean? I guess?"
+   },
+   "interrupt adlibs": {
+    "swear": "use whatever language I please, but to be honest it probably won't make a HUGE different. But, you never know.",
+    "noswear": "try and keep it clean. Then again, sometimes uncouth words will slip out now and then anyway. Sorry if they do!"
+   },
+   "first interrupt": "... do you mind if I swear in the narrative every now and then?",
+   "interrupt return": "Sure thing bub. I'll "
+  }
+ },
+ "@clean": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "messy",
+   "tidy",
+   "normal"
+  ],
+  "interrupt": {
+   "player choices": {
+    "messy": "My place is a little messy, and I like it that way!",
+    "tidy": "I keep things neat and tidy, thank you very much",
+    "normal": "It's normal"
+   },
+   "interrupt adlibs": {
+    "messy": "get a little untidy now and then.",
+    "tidy": "keep things neat. Throw pillow on the couch all askew and what-not? NOT IN MY HOUSE!!!!!",
+    "normal": "like normal things."
+   },
+   "first interrupt": "... so, when you look around your pad, how messy or tidy is your place? Anything, from the state of the kitchen to the amount of clothes on your bedroom floor. How we doing on the cleanliness scale? ",
+   "interrupt return": "Sounds good. I, too, "
+  }
+ },
+ "@mood": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "bad",
+   "good",
+   "depressed",
+   "normal"
+  ],
+  "interrupt": {
+   "player choices": {
+    "bad": "I'm sorta in a bad mood, if I'm gonna be honest with ya",
+    "good": "Honestly, it's been a pretty good day so far. I'd comfortably say I'm in a good mood",
+    "depressed": "Look, I gotta level with ya. I've been feeling depressed lately. Generally just, not doing too hot, y'know?",
+    "normal": "I'm normal"
+   },
+   "interrupt adlibs": {
+    "bad": "Everyone has bad days now and then, it's nothing to be ashamed about. Or, upset about. I don't want to invalidate your upsettedness. Just saying. We've all had days like that. Hang in there, bad-mood baby. You got this.",
+    "good": "And good for you, too! You love to see it <3",
+    "depressed": "Don't get me wrong, it's a shame. And best of luck to ya. We've all been there. Just, know that I'm pulling for ya. You got this.",
+    "normal": "Normal things are pretty okay."
+   },
+   "first interrupt": "... what side of the bed did you wake up on today, anyway? Just checking in with your temperature, here. How we feeling?",
+   "interrupt return": "I respect that. "
+  }
+ },
+ "@place": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "city",
+   "town",
+   "bumfuck"
+  ],
+  "interrupt": {
+   "player choices": {
+    "city": "I live right in the heart of a big city!",
+    "town": "I live in a quaint, small town",
+    "bumfuck": "If you went to nowhere, and just kept on going - that's where I live. Team Isololation, baby!"
+   },
+   "interrupt adlibs": {
+    "city": "Imagining all the tall buildings, and the bustle of city life. Couldn't imagine a better place to be.",
+    "town": "A small town, with quaint old buildings, and quaint old people (and young people too, also probably quaint). The quiet of a place like that really is quite nice.",
+    "bumfuck": "Just imagine. No. People. Anywhere. Not a soul. You've got yourself. And you've got nature. Your alarm clock is birds, and your bedtime is roughly when all the nocturnal predators would come out and eat you if you weren't careful. Bears are fine, though. Friendly buddies, actually, if you just handle your trash the right way. Which you do. Because that's part of living out in the middle of absolutely nowhere. And, might I say, you are just killing it out here!"
+   },
+   "first interrupt": "... so when you decided to settle down, or strike out on your own in this crazy ol' mixed up world of ours (or, whatever else your origin story might be [Hey! I haven't gotten around to writing thhat yet. Cut me some slack!]) - what sort of area did you decide on, anyway?",
+   "interrupt return": "Why, that sounds just lovely to me! "
+  }
+ },
+ "@who": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "cat",
+   "wolf",
+   "rabbit"
+  ],
+  "interrupt": {
+   "player choices": {
+    "cat": "He's a kitty-cat, for sure. Or, a leopard, to be precise",
+    "wolf": "He is a wolf!",
+    "rabbit": "If I recall correctly, Demetri is a rabbit or something, right?"
+   },
+   "interrupt adlibs": {
+    "cat": "cool cat. As in, cool to hang out with. But also, literally. A cat. And, speaking as the author of the story (who is also a cat), dare I say it, you have made a fine decision this day <3",
+    "wolf": "wolf. Good ol' Canis Lupis. A fantastic creature, magnificent and strong. And handsome, to boot!",
+    "rabbit": "rabbit. With that little bun-bun tail and everything, man. Talk about cute!"
+   },
+   "first interrupt": "... so, we've got some choices to make here. Namely, you're thinking about hanging out with your good pal Demetri. What sort of species is he, though?",
+   "interrupt return": "Ah, yes, of course! How silly for me to forget. He is absolutely a "
+  }
+ },
+ "@wall": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "break",
+   "intact"
+  ],
+  "interrupt": {
+   "player choices": {
+    "break": "Sure, go for it. Sounds kind of fun",
+    "intact": "I'd rather not break away from the fiction too much, if that's okay"
+   },
+   "interrupt adlibs": {
+    "break": "I'll allow out my stream of consciousness whenever I'm ready for a little breakage, or when I have something specific I just really think I gotta say or whatever.",
+    "intact": "We'll keep the flow of story goign strong. Inasmuch as possible, of course."
+   },
+   "first interrupt": "... is it cool if I break the fourth wall every now and then?",
+   "interrupt return": "Sounds good to me. "
+  }
+ },
+ "@sexy": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "porn",
+   "sandwich"
+  ],
+  "interrupt": {
+   "player choices": {
+    "porn": "Sexy! I wanna read a sexy story!\\n(This option will literally be gay furry erotica, just to be absolutely clear)",
+    "sandwich": "I would prefer a SFW narrative. I'm curous how you're gonna pull that off"
+   },
+   "interrupt adlibs": {
+    "porn": "One sexy, erotic, exciting tale of intrigue coming your way!",
+    "sandwich": "As In, I think you're gonna like this one. I know I will."
+   },
+   "first interrupt": "... so, now I gotta ask the question we've all been waiting for. Is this gonna be a sexy story? Or is this a safe-for-work type of narrative we have on our hands?",
+   "interrupt return": "Well I tell ya what. You're in for a treat. "
+  }
+ },
+ "@wall~TO": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "DELETE"
+  ],
+  "interrupt": {
+   "player choices": {
+    "DELETE": "DELETE ME"
+   },
+   "interrupt adlibs": {
+    "DELETE": "DELETE ME"
+   },
+   "first interrupt": "DELETE ME",
+   "interrupt return": "DELETE ME"
+  }
+ },
+ "@why": {
+  "occurence": 0,
+  "set to": null,
+  "options": [
+   "positive",
+   "negative"
+  ],
+  "interrupt": {
+   "player choices": {
+    "positive": "... uh... pretty good, I guess",
+    "negative": "I dunno. Negative?"
+   },
+   "interrupt adlibs": {
+    "positive": "It might.",
+    "negative": "It mght. Negative-Nancy."
+   },
+   "first interrupt": "... what's your thoughts on the universe these days, anyway?",
+   "interrupt return": "A good choice. I gotta be honest with you, I don't know how often this one will come into play. But, you knever know. "
+  }
+ }
+}

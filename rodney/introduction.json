@@ -1,0 +1,338 @@
+{
+ "0": {
+  "string": "One of the thought experiments I've been running while making this interactive scene engine, was to write a story which was either perfectly sexy, or perfectly normal.\n    Now, I've tried many times to sort out what I want to write for my first forray. I have ideas aplenty, I want to write a sequel to my webnovel (using this neat new format, no less). Or, maybe it would be more like a reboot. But in any case, I just wasn't sold on it. That's what lead me here. To a a story which is @sexy.",
+  "adlibs": {
+   "clean": {
+    "1": "squeaky clean and neat"
+   },
+   "erotic": {
+    "1": "explicit and erotic. You horn dog"
+   }
+  },
+  "points": [
+   "01"
+  ]
+ },
+ "01": {
+  "string": "Sounds good to me. Let's get started!",
+  "points": [
+   "010"
+  ]
+ },
+ "010": {
+  "string": "You got it. In this story, you're chilling at home, and deciding whether or not to invite over your friend Rodney. @wall. There's only one reason you'd invite Rodney over, because there's only ever one reason he comes over. It's so that @sexy. And most of the time, that's fine with you. You like @sexy, after all, and Rodney is a great friend in that way. But sometimes, you wonder if you wouldn't like more. @love. But this indecision is starting to get to you. Would you like to invite Rodney over now?",
+  "adlibs": {
+   "break": {
+    "1": "In the future, I'll be able to write this out so you can input your own partner's name. I might be able to figure out how to personally gender them as well - my current system isn't quite built out well enough for that just yet, but those are features I would love include in the future! But for now, Rodney the male will have to do. I hope you'll forgive me"
+   },
+   "intact": {
+    "1": "You've known him for a while, and he seems to enjoy your company well enough"
+   },
+   "clean": {
+    "1": "the two of you can make sandwiches, most frequently a reuben sandwich",
+    "2": "a good reuben sandwich"
+   },
+   "erotic": {
+    "1": "he can plow you. There just isn't a more polite way of putting that. Not really, at least. You know what it is, and Rodney certainly knows as well. But it's not like either of you can be blamed for the casually erotic nature of your relationship. The world can be a lonely place, and the two of you like to help each other out now and then",
+    "2": "sex"
+   },
+   "love": {
+    "1": "You can feel butterflies when you think about him, and depending on what mental space you're in when it happens, the sensation either fills you with dread, or with an overhwelming joy. You just can't help it. You like him. If only he could like you back"
+   },
+   "casual": {
+    "1": "But that's crazy talk. Rodney is a friend, that's all, and the more transactional you can keep your relationship, the beter"
+   }
+  },
+  "points": [
+   "0101",
+   "0102"
+  ]
+ },
+ "0101": {
+  "string": "Yes, of course!",
+  "points": [
+   "01010"
+  ]
+ },
+ "01010": {
+  "string": "I like that. Getting right to the point of things. And, I tell ya what. Rodney likes it too, because you give him a call, and he's already well aware of what it is you're after. @love \n    \"Hey, about time you called, @sexy. I was just thinking about you, and your @sexy. You inviting me over, or what?\"\n    Well, talk about transactional. Not even so much as a \"how do you do?\" But, that's what you've come to expect from him, @love. And to be fair, it's sort of nice that he knows what he's about. It was awfully abrupt, is all. But, all the same, you invite him over... or at least, nearly so. Maybe this will be the time you put your foot down, and make your relationship out to be something more.\n    What do you say to Rodney over the phone?",
+  "adlibs": {
+   "love": {
+    "1": "Even if he doesn't feel the same way.",
+    "2": "unfortunately"
+   },
+   "casual": {
+    "1": "Which is good, because you're after the same thing.",
+    "2": "thankfully"
+   },
+   "clean": {
+    "1": "my main sandwich man",
+    "2": "excellent selection of sandwhich condiments and artisan breads"
+   },
+   "erotic": {
+    "1": "sexy fuckbud",
+    "2": "tight little rear"
+   }
+  },
+  "points": [
+   "010101",
+   "010102"
+  ]
+ },
+ "0102": {
+  "string": "I'm not ready to have company just yet. Look around first.",
+  "points": [
+   "01020"
+  ]
+ },
+ "01020": {
+  "string": "Makes sense to me. Let's get a quick lay of the land, so to speak.",
+  "points": "land()"
+ },
+ "010101": {
+  "string": "\"Of course I'm inviting you over! I'm in need of @sexy\" ",
+  "points": [
+   "0101010"
+  ],
+  "adlibs": {
+   "clean": {
+    "1": "some excellent sandwich vibes right about now!"
+   },
+   "erotic": {
+    "1": "your wonderfully sized fuck tool hilted deep in my ass, as quickly as possible!"
+   }
+  }
+ },
+ "0101010": {
+  "string": "\"Well, I think that can be arranged, @sexy. I'll be over before you know it!\"\n    With that, Rodney hangs up. You know he means it, too. He lives in the same apartment complex, and never seems to have anything going on. It means he's always ready for some @sexy. @love. \n    Then you consider the state of your room. @clean. However, you can't dwell too long on that, because Rodney will be over any second now.",
+  "adlibs": {
+   "clean": {
+    "1": "my fantastic food friend",
+    "2": "platonic sandwich crafting",
+    "3": "It's tidy enough, and while you always make the bed in the mornings, you're particularly happy with yourself that you'd done it today. I mean, of course you did - you always do. But it's specifically for instances like this, when you're going to have company over on short notice, that you like to keep a tidy abode"
+   },
+   "erotic": {
+    "1": "hot stuff",
+    "2": "quick and easy, no strings attached fun"
+   },
+   "love": {
+    "1": "You get that small swell in your chest when you consider his fur, his smile. He can be abraisive, but tender, as well. If only he were a little more tender toward you"
+   },
+   "casual": {
+    "1": "Plus, it'll be a little nice to have company over, even if only for a bit"
+   },
+   "messyhappy": {
+    "1": "You know that there's laundry everywhere, some dishes which aren't especially stacked, and the bed is of course in disarray. But that's who you are, and Rodney doesn't care, and neither do you"
+   },
+   "messysad": {
+    "1": "You fret quickly about messy you know your room is. If only you had thought about that before inviting him over! A classic mistake. But now that he's on the way, there will be no stopping him. It's best to buckle down and just accept that your room is going to be a mess. You just hope Rodney won't mind too much"
+   }
+  },
+  "points": [
+   "01010101",
+   "01010102"
+  ]
+ },
+ "010102": {
+  "string": "\"Actually, about that. Why don't we ever actually hang out?\"",
+  "points": [
+   "0101020"
+  ]
+ },
+ "0101020": {
+  "string": "You hear silence on the other end.\n    \"... the fuck you on about?\"\n    Uh-oh. It seems like you've angered the man you @sexy.",
+  "adlibs": {
+   "clean": {
+    "1": "make sandwiches with on a fairly regular basis"
+   },
+   "erotic": {
+    "1": "invite over to casually fuck on a fairly regular basis"
+   }
+  },
+  "points": [
+   "01010201",
+   "01010202"
+  ]
+ },
+ "01010101": {
+  "string": "Look around before Rodney arrives. What kind of place do I live in?",
+  "points": [
+   "010101010"
+  ]
+ },
+ "010101010": {
+  "string": "It's a one bedroom apartment. It's a modern construction, which pretty much means that your apartment looks like all of the others. The outside of the building has that \"gentrification building\" vibe to it, and the rent certainly reminds you of that gentrification tidbit.\n    Admittedly, you feel like you probably pay a lot in rent for what you actually get. But the location can't be beat! @location \n    As for the rest of your apartment, though, it's somewhat plain. @wall. You have a modestly sized television with a handful of game consoles, and a couch which is comfortable and well-broken in. The kitchen is where you do things like @sexy, and it's of a small/medium size. @wall. \n     @wall. ",
+  "adlibs": {
+   "city": {
+    "1": "From your front window you can see businessfolk of all manner walking along the downtown streets. It's honestly a bit of a dream, and any shops you could care to visit are a walk away. On the more daring of days, you can ride your bike instead, to get to the REALLY far shops, which in a city like this, are still perfectly near.\n    What else can really be said? You love the bustle of people around you, and you love where you live because of that."
+   },
+   "country": {
+    "1": "Admittedly, it's a little odd for the development you're in to be placed where it is. And for the pessimistic among us, it might portend to additional development down the line, which would rob you of your fantastic view. But for now, you take in all you can get. Because what a view it is!\n    You can see mountains in the distance, with a typical haze to them as the atmosphere seems to color them with a blueish tint. You can see mountains nearby as well, as you're nestled up against the base of one. You can look down at the relatively small town you're a part of. It's a quiet town, the place where everyone knows everyone. And for a while, you were afraid you wouldn't quite fit in. Yet that turned out not to be the biggest issue. Besides, there's so much nature just outside your front door, that even if you never talked to another person again in your life, you still wouldn't run out of things to do.\n    Admittedly, that might be a bit of an exaggeration. But it certainly doesn't feel like it. Because you love where you live, and you wouldn't give it up for anything at all."
+   },
+   "break": {
+    "1": "Later on, I'll make this more, like, interactable. A house you can customize, and walk around in and stuff. This is a very early state of my interactive story engine, after all. And there (hopefully) will be additional functionality coming down the line. But for now, I mean. I dunno. It's an apartment, congratulations",
+    "2": "But, for real. It's a kitchen. Not to be disinterested. But I wrote in to my constructor here that I might continue with descriptions of your apartment, or that I might break the wall. And, I don't have anything else to especially say right now. Not that I'm disenthused about describing the kitchen, and the rest of the apartment. It's just that I'm new to this, a bit. I know how to write a story, don't get me wrong! But writing in this interactive style is something else entirely. Oh, right. The apartment",
+    "3": "It's plain, but it suits you well. And you are VERY looking forward to when the game develops further along, and you can interact with the environment more. At least, I'm looking forward to that <3"
+   },
+   "intact": {
+    "1": "You have the necessities, though, and you're grateful for each of them",
+    "2": "It might not be much to look at, but it's yours. And you wouldn't have it any other way",
+    "3": "The rest of your apartment feels the same. It's a simple style, but it suits you. It's perfect for someone who lives alone, and occasionally has a friend over, like you're intending to have over soon"
+   },
+   "clean": {
+    "1": "put away groceries and prepare sandwhiches. Sometimes you even acquire a bag of chips from the kitchen, and pair them with the sandwiches you make! Point being, it suits your purposes well"
+   },
+   "erotic": {
+    "1": "grab a beer for the various number of suitors you have over"
+   }
+  },
+  "points": [
+   "0101010101",
+   "0101010102"
+  ]
+ },
+ "01010102": {
+  "string": "Heck yeah, man. I can't wait to @sexy. Bring him over asap!",
+  "points": [
+   "010101020"
+  ],
+  "adlibs": {
+   "clean": {
+    "1": "carefully prepare, and then enjoy, a delicious sandwich"
+   },
+   "erotic": {
+    "1": "get my mouth on his manhood, and relish in the taste and smell of my fuck bud"
+   }
+  }
+ },
+ "010101020": {
+  "string": "Absolutely! In fact, you hear him at the door now.",
+  "points": "()"
+ },
+ "0101010101": {
+  "string": "Maybe tell me a bit more about the location and the world before moving on.",
+  "points": [
+   "01010101010"
+  ]
+ },
+ "01010101010": {
+  "string": "Sure thing bub.\n     @location \n     As for the world: It's just a modern society, same as the one we live in now. But populated with furries, of course. @wall \n    If you must know, the culture of this world is probably something like zootopia. As in, there are parts of the world where racism runs deep, and inter-species relations are NOT okay. But in other parts of the world (and honestly, where most of my stories will end up taking place), society as a whole has gotten more progressive. Things like sexuality and inter-species relations aren't as much of a thing. It's all just people getting along. That's the world I want to live in, at least. So, that's what I ended up writing. \n     @location",
+  "adlibs": {
+   "city": {
+    "1": "You live just off of downtown in a large city. The type where, when you look up, you absolutely cannot see the tops of the buildings which surround you. It's the sort of place where you can be on a crowded street, and you've never felt more anonymous in your life. You don't need a car in a tightly packed space like this, and in fact, if you did have one it would likely hold you back. It has everything you could ever need. Sure, you have some assholes, high stress and self absorbed. But there's also artists and chill folks just looking to live their best life. Your city has a little bit of everything in it, and you lvoe it for that.",
+    "2": "Especially in a city like this, there's no limits to the stories which can be told, which I'm certainly looking forward to. I hope you are as well :)"
+   },
+   "country": {
+    "1": "There is a host of recreation at your fingertips. Hiking in the summer. Skiing in the winter (or snowboarding, if that's more your vibe). Heck, you could even get a room in the nearby lodge and just enjoy some winter hot-cocoa and sauna, without needing to engage in the outdoor recreation at all.\n    There's just such a littany of possibility here, and you feel like a part of nature, living in a small town as you are. Sure, the people can be a little abraisive. But they can be nice as well, and ultimately, it's all just folks trying to live out their lives. You fit in with them, point being. And you wouldn't trade it out for a thing.",
+    "2": "Even though it's a small town which you've opted to live in, there's still accepting pockets, and a myriad of stories able to be told :)"
+   },
+   "break": {
+    "1": ""
+   },
+   "intact": {
+    "1": ""
+   }
+  },
+  "points": [
+   "010101010101"
+  ]
+ },
+ "0101010102": {
+  "string": "I want Rodney! I want @sexy!",
+  "points": [
+   "01010101020"
+  ],
+  "adlibs": {
+   "clean": {
+    "1": "a sandwich"
+   },
+   "erotic": {
+    "1": "to get to the sex"
+   }
+  }
+ },
+ "01010101020": {
+  "string": "You got it. Wouldn't dream of delaying the situation one iota more. Let's get Rodney on in here, for that @sexy",
+  "adlibs": {
+   "clean": {
+    "1": "wonderful sandwich life."
+   },
+   "erotic": {
+    "1": "steamy action you came here for."
+   }
+  },
+  "points": [
+   "010101010201"
+  ]
+ },
+ "010101010101": {
+  "string": "Neat. Let's get on with the story, then. Rodney should just about be on his way, shouldn't he?",
+  "points": [
+   "0101010101010"
+  ]
+ },
+ "0101010101010": {
+  "string": "Yes, of course. We've lingered long enough, and Rodney should certainly be close. In fact, you hear him at the door now!",
+  "points": "()"
+ },
+ "010101010201": {
+  "string": "ACCIDENTALLY MADE THIS ENTRY, UNDO THIS ENTRY, THIS ENTRY DOES NOT EXIST",
+  "points": [
+   "0101010102010"
+  ]
+ },
+ "0101010102010": {
+  "string": "DOES NOT EXIST",
+  "points": "()"
+ },
+ "01010201": {
+  "string": "Walk it back and invite him over.",
+  "points": [
+   "010102010"
+  ]
+ },
+ "010102010": {
+  "string": "\"That's more like it.\"\n    You hear the click as he hangs up, @wall. Maybe you shouldn't have said anything, because he did seem awfully upset. But, knowing Rodney, he won't think too hard about what just happened.\n    And, sure enough, you hear him at the door in only a handful of moments. He doesn't seem to mind that you almost stood up to him. In fact, it seems to have slipped his mind entirely.",
+  "adlibs": {
+   "break": {
+    "1": "which means he has a corded phone of some sort (you wouldn't really get that click sound from a standard smartphone), and that was a funny image which came to my mind, which I wanted to bring up real quick"
+   },
+   "intact": {
+    "1": "and you get sort of a nervous feeling about it"
+   }
+  },
+  "points": "()"
+ },
+ "01010202": {
+  "string": "Double down, and insist we spend time together outside of just @sexy. @love",
+  "points": [
+   "010102020"
+  ],
+  "adlibs": {
+   "clean": {
+    "1": "making sandwiches together"
+   },
+   "erotic": {
+    "1": "having sex"
+   },
+   "love": {
+    "1": "I do love him, after all, and I want to make this work out."
+   },
+   "casual": {
+    "1": "Even though we're just casual buddies, it would still be nice to broaden out our friendship a bit."
+   }
+  }
+ },
+ "010102020": {
+  "string": "@wall ",
+  "adlibs": {
+   "break": {
+    "1": "This is, admittedly, a little unexpected. The branching narrative of a choose-your-own-adventure story sprawls and expands, and has so much possible to be told. And I would love to tell as much as I could!\n    But there's limits to everything, and this is one such limit. I can give you some cliffnotes for the future, though. Later on, if I were able to develop this story more, then there's be some branching pathways even from here. Rodney can be mad that you changed your mind, or he can be undertanding. There can be character growth, and a good amount of tension. Will Rodney fly off the handle and put you in danger because he's so upset? Or do things work out fine?\n    Those are the sorts of stories I love to tell! And in the future, I'd like to be able to. But time is short, and I'll be honest. Even just writing out this introduction to the sexy/silly story I decided to write today, has taken a great amount of time. I haven't even gotten to the sexy part yet! So I absolutely have to put a hold on this.\n    So, let's just say, that the story takes a dramatic turn if this is the path the player character walks. But for now, let's head back to the story I was actually able to write."
+   },
+   "intact": {
+    "1": "From this point, so much happens that it's a little impossible to relay concisely. Rodney is the type not to take kindly to being stood up against. From there, it's hard to say if things work out nicely between the two of you, or if an altercation takes place."
+   }
+  },
+  "points": "()"
+ }
+}

@@ -1,0 +1,740 @@
+{
+ "0": {
+  "string": "Hi there! Welcome to my first ever short story using my fancy new scene engine. I'm ready to get right to it if you are <3",
+  "points": [
+   "01",
+   "02"
+  ]
+ },
+ "01": {
+  "string": "First, I'd like to hear a bit about yourself, and what this is all about, if that's okay",
+  "points": [
+   "010"
+  ]
+ },
+ "010": {
+  "string": "Oh, sure thing. My name is Finn, I've been writing fiction for probably 20 years now. Although, for the past decade+, we might as well call it what it is. Furry smut. Hey, I'm not ashamed if you're not either.\\nAnyway, a while back I decided that writing alone likely wasn't gonna come to cut it for paying bills nad making a living and such. I also realized that just working at a cafe forever and dying there really wasn't my gig either. I know, I know. That's a dramatic place to go to right away. I just don't wanna die while working at a cafe, you know? So I decided to pick up coding, which ultimately lead me here.\\nI started learning Python. Decided I might as well make a quirky little text-based game, to have some fun while I learn for/in and while True, and if/else (I try to avoid those!), and dictionaries. Dictionaries for days, man. I'm on Team Dictionary, for sure.\\nOnly, because I'm a writer by hobby, doing all this programming and creative writing at the same time, it just wasn't cutting it. I wanted to write out stories, my man. THEN you could, like, 'go to the bar', 'look at Demetri', 'steal the bottle of wine and take it to Sadbadge at the bar counter'. A real encounter I plan to code. It's just that, my scene engine you're looking at right now got a little carried away. And I mean, A LOT carried away.\\nI needed a way to organize the writing, so the computer could make it's own if/then statements, basically, and I could just focus on the writing itself. I accidentally made it fairly robust. Rudimentary, to be sure, but robust. Then I needed to be able to actually parse through and read the computer gibberish I had learned how to write. Then I chose to make it a little pretty, and made a whole UI to present it, because the fiction had gotten pretty robust, and it deserved a robust viewing solution. What you see now is not the final product, by the way, although this is probably the form it will take for quite some time. The development process has been a long one. There is still so far to go. But for now, I'm happy with where it's at. I'm ready to finally take it for a spin, and show it to the nice folks like you!",
+  "points": [
+   "0101",
+   "0102",
+   "0103"
+  ]
+ },
+ "02": {
+  "string": "Shoot, sounds good to me. Let's get right to it",
+  "points": [
+   "020"
+  ]
+ },
+ "020": {
+  "string": "You are at home, alone. You're kind of dawdling about. It's a day off, and you have already done most of the day off things. Played some video games, you @clean, and now you feel a little aimless. You don't have to worry about bedtime for work/school in the morning, and there are no pressing social obligations coming up. It is just you, and plenty of free time. @mood. It sort of make you think you might enjoy having a little company over. And you have a few choices of folks you could invite.",
+  "adlibs": {
+   "messy": {
+    "1": "thought about cleaning up your apartment then decided against it"
+   },
+   "tidy": {
+    "1": "tidied things up, did the dishes and your laundry. You accomplished all the normal chores which typically make up a day off, and they even took a bit less time than you structured for. It feels nice when that happens, but it has left you with a little too much free time"
+   },
+   "normal": {
+    "1": "looked around your pad. You feel fine about it",
+    "2": "And you're like, fine about it. Kind of normal, sort of blank, but not in a bad way, but neither is it good. It's fine"
+   },
+   "bad": {
+    "1": "It doesn't help that you feel sort of this fog of frustration. You aren't in a bad mood, per se. But neither are you doing well. You can't help but feel like it's a day like any other. They come and go, and should life not amount to something more? After all, it is not like you did anything wrong. By all accounts, it has been a pretty fine day. Yet you feel sort of fucky about it. You wonder why"
+   },
+   "good": {
+    "1": "It's the sort of thing which elevates your mood. Or, perhaps it is more accurate to say that it does not drag you down. Yet in either case, you feel almost top of the world. It has just been rather a good day, and you try not to question the good times when they come. It just feels like a banger of a day, basically"
+   },
+   "depressed": {
+    "1": "But, the fat good is that going to do? Great. More time to watch television. Maybe Netflix has some new show on that is not worth watching. Or another video game. Not like they are not all the same these days anyway. Just like the days themselves. All the same, day in, day out. Forever. You feel grey these days. At times, it feels like you always have. Like maybe you always will"
+   }
+  },
+  "points": [
+   "0201",
+   "0202"
+  ]
+ },
+ "0101": {
+  "string": "Aww, shuck, bud. I dunno if I'd call myself a 'nice folk', but it sure is appreciated my man",
+  "points": [
+   "01010"
+  ]
+ },
+ "01010": {
+  "string": "You kidding me? You're a gem. Dunno who you are, or where. But whatever 'it' is, you got it <3",
+  "points": [
+   "010101"
+  ]
+ },
+ "0102": {
+  "string": "Cool. But I'm ready to get to the story now",
+  "points": [
+   "01020"
+  ]
+ },
+ "01020": {
+  "string": "You got it bub. Here we go!",
+  "points": "()"
+ },
+ "0103": {
+  "string": "I get the instinct that this button will take me to a dialogue branch whhere you'll talk more about your history as a writer and what your credentials are and such. What a weird impression I get from looking at this button",
+  "points": [
+   "01030"
+  ]
+ },
+ "01030": {
+  "string": "You know what, you got me. That's exactly what that button was for. Also, by the way, I just think this is self-serving and a delight. It's just glorious to be actually writing this all out, and knowing that it's actually gonna see the light of day. I can't count the number of times I've written out prototype fiction to use during my scene reader coding, but haven't actually decided to continue developing the story itself. I did a few times. I figured that, I would need the fiction to view with my new viewer anyway. So when I wanted a break from my coding, but wanted to still work on the project - I could just write some of the fiction itself, right?\\nNot so. See, if I've learned one thing from my years of writing wonderful, gay furry erotica (although I have learned a great many things), is it that I'm a big fan of the write it/post it mentality. If it sits on the hard drive, it never sees the light of day. Else, if I am stalward and sure in my quest, I'll open the file back up and finish the work. It CAN be done. But it takes FOREVER. FIVEVER, even. I gotta remember my place, read through it to get back in the zone. Glue together the new narrative I'm writing at the moment, with the narrative I had before. It's a skill which just isn't super natural to me. I've done it before. I'm not the worst at it. But I have confidence enough in my ability as a writer, to write something, and it's like, pretty good or whatever I guess. But I'm just not a huge first-draft kinda guy. Second draft. Revisions. The editing stage. I mean, sure, you want to put out a good story. But does all of that additional hand-crafting really guarantee you a better tale? I mean, sure. It doesn't NOT make the story better. But I don't know if it's guaranteed to help. And there's a bit of a glory in a raw expression of self, I find. This isn't a tailored experience, here. The way my scene constructor is built, it is HARD to go back and edit this @swear. And my WPM has semi tanked as a result. It's sort of painful, really. If I press 'enter' at a rogue time, it's this whole ordeal. Definitely not an ideal writing environment. But worth it! Because I thinkk I got something pretty special here.\\nThat's why I've been so doggedly working at it for so long. Five months might not seem like a long time, and granted not ALL of that has been spent on this scene constructor/reader. But that's time I could have been doing job applications, or writing normal stories. I wrote a webnovel, actually. Did you know that? A whole, published thing. It's on one of my sofurry pages, you can find it if you want. Though it isn't super good, so don't expect anything rockstar. But still, I could have made another one of those, or even two! I love writing, you see. That's why this is such a treat, to finally be at this stage. It's ready to go! It's a bit proto-typey, still. A little rough around the edges. But it's good to go nonetheless. And that's just a wonderful space to be in <3",
+  "adlibs": {
+   "swear": {
+    "1": "shit. It is hard to go back and edit this shit"
+   },
+   "noswear": {
+    "1": "stuff. It is hard to go back and edit this stuff"
+   }
+  },
+  "points": [
+   "010301",
+   "010302"
+  ]
+ },
+ "010101": {
+  "string": "Uh... thanks, I guess. But, what now?",
+  "points": [
+   "0101010"
+  ]
+ },
+ "0101010": {
+  "string": "I dunno, you're the one who's been pressing the buttons. You wanna start reading the story now?",
+  "points": [
+   "01010101",
+   "01010102"
+  ]
+ },
+ "01010101": {
+  "string": "I mean, sure. That's why I'm here, after all",
+  "points": [
+   "010101010"
+  ]
+ },
+ "010101010": {
+  "string": "Righto. Let's get you started.",
+  "points": "()"
+ },
+ "01010102": {
+  "string": "Can I hear more about you, first?",
+  "points": [
+   "010101020"
+  ]
+ },
+ "010101020": {
+  "string": "Oh, sure thing! I'll send you back a few dialogue sections. Talk to you in a few :)",
+  "points": "()"
+ },
+ "010301": {
+  "string": "You know what, I'm happy for you. Sounds like a cool little project. Although, this is a little more reading than I anticipated",
+  "points": [
+   "0103010"
+  ]
+ },
+ "0103010": {
+  "string": "Eh. I mean, that's the nature of the beast. Apparently. It's a little more than I intended to write, to be honest. Especially for the dialogue branch where you asked to hear more about me. But, then again, you are the one who asked.\\nAnyway, I think it's about time to start the story major. I hope you like it!",
+  "points": [
+   "01030101"
+  ]
+ },
+ "010302": {
+  "string": "I don't appreciate being shoe-horned into a dialogue option which isn't what I'm actually thinking. This is just the right amount of reading. So thank you for writing it all. It is very kind of you, and I am pretty and neat for saying so",
+  "points": [
+   "0103020"
+  ]
+ },
+ "0103020": {
+  "string": "Oh, come on. Giving yourself a compliment like that is a little self-serving, don't you think? And presumptuous as @swear. It is sort of fun to play around with the interactive part of my story, though. But, I've had my fun for now. Let's get the story started :)",
+  "adlibs": {
+   "swear": {
+    "1": "hell"
+   },
+   "noswear": {
+    "1": "all get out"
+   }
+  },
+  "points": [
+   "01030201"
+  ]
+ },
+ "01030101": {
+  "string": "Sure thing mate. Show me what you got!",
+  "points": [
+   "010301010"
+  ]
+ },
+ "010301010": {
+  "string": "Sure thing",
+  "points": "Probably delete this()"
+ },
+ "01030201": {
+  "string": "Sounds good. Show me what you got!",
+  "points": [
+   "010302010"
+  ]
+ },
+ "010302010": {
+  "string": "You got it!",
+  "points": "Probably delete this()"
+ },
+ "0201": {
+  "string": "I'm excited to do that. But first, tell me more about the setting. Where does this story take place?",
+  "points": [
+   "02010"
+  ]
+ },
+ "02010": {
+  "string": "Sure thing. The story takes place @place. In all, it's pretty @swear near idyllic. You live here for a reason, after all. Besides, if you hadn't moved here, you never would have met your partner of choice, @who. And you honestly wouldn't have it any other way.",
+  "adlibs": {
+   "city": {
+    "1": "in the city. In the heart of it, really. The world is furry, by the way, just to clear that up right now. Modern age, and boy. Looking around, it sure is modern as heck.\\nYou live in the heart of it all. Downtown of what might be the equivalent of Seattle, or maybe even New York. One of those bigtall building types. You live in one of them, by the way. Right in the thick of it. The sounds of cars and city life below is non-stop. By now it has turned into a wonderful sort of drone. It is a comforting background noise to your life. A constant reminder of the people which surround you. The life which you can see and feel everywhere that you look.\\nThere is a bagel shop nearby, which you frequent as often as you like. And no matter what location path you choose in this narrative, you have a job you like, and a life you can not only sustain, but afford easily, and love it every single day"
+   },
+   "town": {
+    "1": "in a small town. It is nestled near some mountains, in a way which makes the place just hard enough to get to, but not frustrating to live in at all. Not only is the drive into your town just wonderful, but living here is even moreso.\\nAnywhere you look you are likely to see at least a little nature at work. The heart of downtown is no more than a handful of blocks wide, and the moment you step outside of it, there are trees and greenery, and peace and quiet galore. The furries you run into on the streets are friendly as any you could meet. Which is a good thing, because this town is the perfect size for everyone to know everyone. Every store seems to be a family store. Owned by a grandparent. Run by a father. And will be passed down to their children when the time is right. It is the town where people who are born there tend to stay there. And people who move there do so to sort of get away from the needless haste one can feel in the rest of the world. In short, you love it here. You would not trade it away for the world"
+   },
+   "bumfuck": {
+    "1": "in the middle of absolutely nowhere. Most people do not know where you even live, and you bet your furry little rear that that is by design. It is a cabin in the woods. The uninventive would say it is the manner of location where horror films might take place. But any manner of slasher, any villain, any supernatural beast - well, they would have to find you, first. And you live with nature, inside of nature, and as far away from any people at all. You live in the middle of nowhere."
+   },
+   "swear": {
+    "1": "damn"
+   },
+   "noswear": {
+    "1": "darn"
+   },
+   "cat": {
+    "1": "Demetri the leopard. Something about his coat of spots is attractive to you, along with his rounded ears, and the comparatively thin (yet remarkably dense) feline tail"
+   },
+   "wolf": {
+    "1": "your canine friend Demetri. He is a wolf, with a well kept (though slightly shaggy) coat of brown fur. The pointed tip of his ears always stood out to you, and you enjoy catching hints of a wagging tail when he thinks you are not looking. Not to mention the pointed canines in his jaw just do something for you, in an awfully big way"
+   },
+   "rabbit": {
+    "1": "Demetri the lagomorph. Which is really just a silly flex of the one thing you managed to retain from your middle school taxonomy class. Call him what he is - a bunny rabbit, even though that term is ever so slightly derrogatory. Demetri is a little on the short side, although his pointed ears more than make up for your difference in height. He has the bouncy personality you would expect from a rabbit, which is how he prefers to be called. That is, if you chose to call him anything save for his name. Or bunbun. He accepts bunbun as well. Good thing, too, because you can not seem to help it. He is just so gosh darned cute"
+   }
+  },
+  "points": [
+   "020101",
+   "020102"
+  ]
+ },
+ "0202": {
+  "string": "I'm ready to invite over my buddy now",
+  "points": [
+   "02020"
+  ]
+ },
+ "02020": {
+  "string": "Very well. You decide to call up @wall, Demetri. His personality is @place, and @who. He picks up the phone, and it is always a little pleasant to hear that @who voice of his.",
+  "adlibs": {
+   "break": {
+    "1": "the guy who I described in fair length a dialogue tree back or so"
+   },
+   "intact": {
+    "1": "your good friend"
+   },
+   "city": {
+    "1": "kind, with a little hustle you might expect from a city fella"
+   },
+   "town": {
+    "1": "laid back and pleasant"
+   },
+   "bumfuck": {
+    "1": "nice, yet not overbearing"
+   },
+   "cat": {
+    "1": "felines have always drawn you in sort of a special way. The purr when they get comfortable is sort of cute, to be honest, and while it isn't a guaranteed trait, felines to tend to be tall. Leopards are especially known for being generally tall, and Demetri is certainly no exception",
+    "2": "ever-so-slight purr in that"
+   },
+   "wolf": {
+    "1": "he does have sort of lone-wolf vibes, despite being pleasant to be around. His pawpads are black, though in a textured sort of way. And his claws are dull, to the point where they feel comfortable whenever they trail along your back",
+    "2": "tenor sort of timbre in that"
+   },
+   "rabbit": {
+    "1": "his stature makes him the perfect cuddle buddy, as well as the size difference being enjoyable for the more... special acivities you sometimes get up to. His fur is off-white, almost like the most expert interrior designer in all the land chose the ever most perfect shade of white for a perfect room. It is white in a way as to perfectly accent those features of his which truly draw you in. The inner velvet of his tall, perky ears is a delightful pink, though not as pink as his cute, scrunched up little nose. His whiskers draw attention to his little rabbit nose, and those trademark front teeth are just picturesque of a rabbit. Though, they aren't long enough as to be off-putting, and certainly not comical. They fit his frame just perfect, basically",
+    "2": "soft spoken"
+   }
+  },
+  "points": "020200"
+ },
+ "020101": {
+  "string": "That sounds lovely. I have to say, I am excited to meet Demetri. Let's invite him over now",
+  "points": [
+   "0201010"
+  ]
+ },
+ "0201010": {
+  "string": "Of course. One Demetri, coming right up!",
+  "points": "INVITE DMETRI()"
+ },
+ "020102": {
+  "string": "First, tell me how Demetri and I met",
+  "points": [
+   "0201020"
+  ]
+ },
+ "0201020": {
+  "string": "Of course, how could I forget? The two of you met @place. It was a chance encounter, and although @mood, youu still can not help but be grateful you @place. Honestly, you are pretty grateful for it every day. Even as grateful, if not moreso, than the opportunity you have to live @place.",
+  "adlibs": {
+   "city": {
+    "1": "at your bagel shop, of course. Insomuch as it can be called that. Your favorite bagel, your daily standby, your ol' faithful, the it's-a-classic-for-a-reason bagel, just so happened to be out of stock. It must have been a freak accident, because your favorite bagel is never out of stock. You love that bagel. You start your day with that bagel. It is as much of a routine for you as the sun itself. This is not an exaggeration. You love that bagel.\\nAnd so, you waxed poetic on the bagel. Right there at the bagel stand, you lamented its loss. And wouldn't you know it. Demetri happened to be right there. He had purchased the final of your favorite bagels. He heard your cries of sorrow. And, blessed be, the attractive fur you have chosen to spend this narrative with split his bagel with you.\\nThe two of you commiserated over that bagel, and the rest was history. Sure, you guys might not be in love (yet). But with that bagel, you sure did secure a friend for life. Not to mention, the benefits are pretty good, too",
+    "2": "bumped into your fated friend on that fateful, bagel-induced day",
+    "3": "in a verified metropolis such as this"
+   },
+   "town": {
+    "1": "while you are on a hike. Demetri, ever the outdoorsy type (but, living in a town like this, you have an enjoyment of the outdoors yourself), happened to be taking a sit on a rock alongside the trail. He had taken off a shoe and was rubbing at his foot a little. Quickly, he explained that an errant rock had found its way between the sole of his shoe, and a corner of his own soul, as the ever diminutive (yet surprisingly pointy) boulder threatened to ruin his hike.\\nNeedless to say, it seemed like an odd thing to immediately assure you about. Yet his friendly attitude about it struck you in a pleasant way. The two of you struck up a conversation, and from there it was hisstory. The two of you finished out the hike together, and talked about all sorts of things. You guys have been good friends ever since",
+    "2": "had gone for that hike. That you had bumped into that then stranger, now friend. And that he had been friendly enough to catch your attention, which spawned one heck of a friendship indeed",
+    "3": "in a relatively secluded, yet beautiful and tight knit community such as this"
+   },
+   "bumfuck": {
+    "1": "at the one convenience store in a fifty mile radius. That might be an exaggeration. It might not be. But even the most solitary of creatures needs a Snickers every now and then. That was Demetri, by the way, not you. Ain't no person living out in the middle of nowhere NEED a snicker. At least, not you. You just needed a refill of kerosene, and a little bit of vice. Maybe it was cigarettes, or perhaps a bottle of your liquor of choice. Heck, maybe it was just sunflower seeds, or the rare apple which you normally can't forage for, out here in the middle of nowhere.\\nYet, for being as solitary of a creature as you are, and for all the love of silence you feel in your heart - you recognized something inside of this stranger you had happened to run into. Out here, smack-dab beteween nowhere and never. It was a reflection of the solitude you felt in yourself. And even those who most enjoy their own company can use a friend every now and then. Not to mention, the benefits are pretty good too",
+    "2": "happened to be in the right place at the right time, to meet perhaps the only person whose company you could ever care to share",
+    "3": "out in the middle, where even trees which fall which make sound make no sound or however that saying is supposed to go"
+   },
+   "bad": {
+    "1": "today you are feeling to be in a generally foul mood (although you still are not able to quite place why that is)"
+   },
+   "good": {
+    "1": "you would no doubt enjoy the remainder of your evening no matter how you decided to spend it"
+   },
+   "depressed": {
+    "1": "it honestly is not likely for even Demetri to lift your spirits"
+   },
+   "normal": {
+    "1": "you feel fine, I guess"
+   }
+  },
+  "points": [
+   "02010201",
+   "02010202"
+  ]
+ },
+ "02010201": {
+  "string": "Why, that sounds just lovely. I rather think that I am about ready to invite him over now!",
+  "points": [
+   "020102010"
+  ]
+ },
+ "020102010": {
+  "string": "I am right there with you, bud. Let's call over your friend and see what sort of action you two wild and crazy guys get up to",
+  "points": "INVITE DEMETRI()"
+ },
+ "02010202": {
+  "string": "Actually, I am a little @mood right now, and do not want to invite him over yet",
+  "points": [
+   "020102020"
+  ],
+  "adlibs": {
+   "bad": {
+    "1": "petulant, and generally feeling a little bit pissed at the world"
+   },
+   "good": {
+    "1": "too elated to be in the mood for company"
+   },
+   "depressed": {
+    "1": "too bummed out with life"
+   },
+   "normal": {
+    "1": "too normal and fine with the situation"
+   }
+  }
+ },
+ "020102020": {
+  "string": "Your trepidation is heard, and appreciation. @wall, @wall, @wall. And so, Demetri it shall be.",
+  "adlibs": {
+   "break": {
+    "1": "But I can't keep writing these dialogue trees forever, man",
+    "2": "and I am sure you do not want to hear me rant on and on and on forever in silly dialogue expansions",
+    "3": "plus I am recognizing that this is going to be a BEAR of a story to write. I mean, I am looking at a notepad of six adlibs already, with something like sixteen unique choices altogether. I am not joking about that. At of this exact period of writing, there are a total of sixteen individual, unique lines for me to write, able to be slotted into this narrative at any point I choose. And the thing is, I'm actually doing it. The madlad that I am. Two or three times I have darn near pulled my hair out, because I am making SO MUCH WORK FOR MYSELF that it is not even funny. Maybe it is a little funny. But shoot, man. I have written sample stories in this format before. I know how much time it takes. I have not yet written one of these for more than, say, two or three hours. At the fullest, my writing sessions can go for perhaps seven hours? Depending on the length of story, that is. And this is gonna take FOR-EEH-VVUUURR. I was planning on having a celebratory pint when this was all done, which I can only even afford if I hit happy hour, because I am bitch-ass-broke and just doing the best I can, man. And there ain't no way I'm hitting it at this rate, you kidding me? All of which is pretty ranty, by the way, and it is a little played up, to be sure. I mean, I am making a ton of work for myself, and it honestly is a little wild to understand that, with all those unique story elements (and no doubt more on the way), that this is a dense story, and not at all long. I mean, most of this stuff will not even be read. I am aware of that. So writing it COULD be considered a hate crime against myself. But shucks, dude. I have not written for a good while, and I am here to flex that old muscle of mine, and see what sort of damage I can do. So strap in, strap on, and get ready for a wild ride. You feel me?\\n"
+   },
+   "intact": {
+    "1": "And you do consider keeping your peace and quiet for a time",
+    "2": "but eventually you weigh the options and decide to invite him over all the same",
+    "3": "because it just feels like about that time. Even if you do feel a tiny bit nervous about it"
+   }
+  },
+  "points": "INVITE DEMETRI OVER()"
+ },
+ "020200": {
+  "string": "Right away, he sounds pleased that you called.\\n\"Hello,\" Demetri says. \"I was just thinking about you! I was actually just thinking that it was about time for another @sexy, don't you?\"",
+  "adlibs": {
+   "porn": {
+    "1": "round of rumble tumble in the bed"
+   },
+   "sandwich": {
+    "1": "tasty sandwich"
+   }
+  },
+  "points": [
+   "0202001",
+   "0202002"
+  ]
+ },
+ "0202001": {
+  "string": "Wait. He said @sexy? Is that really @sexy?",
+  "points": [
+   "02020010"
+  ],
+  "adlibs": {
+   "porn": {
+    "1": "'rumble tumble'",
+    "2": "an appropriate way to start off an erotic story"
+   },
+   "sandwich": {
+    "1": "'sandwich'",
+    "2": "what a safe-for-work narrative will be about"
+   }
+  }
+ },
+ "02020010": {
+  "string": "Of course! @wall, and there just isn't a better way to say that than @sexy. Besides, the two of you love @sexy, so there really isn't a problem here at all.",
+  "adlibs": {
+   "break": {
+    "1": "I had to start writing the story somewhere"
+   },
+   "intact": {
+    "1": "You did want to hang out with Demetri, after all"
+   },
+   "porn": {
+    "1": "'rumble tumble'. That is, I could have said 'fuck you into the sheets like there's no tomorrow, and hump my meat-rod into your tender hole, as I fill you with cum and make you beg for more'. I really do not think that would have been any better, plus I like to consider myself a better writer than that. At any rate",
+    "2": "getting jiggy with it"
+   },
+   "sandwich": {
+    "1": "to make a good couple of platonic sandwiches",
+    "2": "a good BLT, or maybe a reuben! Or really, you guys just totally love sandwiches"
+   }
+  },
+  "points": [
+   "020200101",
+   "020200102"
+  ]
+ },
+ "0202002": {
+  "string": "\"Of course, Demetri! I also am ready to @sexy\"",
+  "points": [
+   "02020020"
+  ],
+  "adlibs": {
+   "porn": {
+    "1": "get jiggy with it"
+   },
+   "sandwich": {
+    "1": "prepare some very tasty sandiches"
+   }
+  }
+ },
+ "02020020": {
+  "string": "You can almost hear Demetri smile through the phone.\\n\"Sounds good to me. Do you want to come over here, or should I head to your place?",
+  "points": [
+   "020200201",
+   "020200202"
+  ]
+ },
+ "020200101": {
+  "string": "I mean, I guess. But I'm still not convinced.",
+  "points": [
+   "0202001010"
+  ]
+ },
+ "0202001010": {
+  "string": "Why not? What's wrong with @sexy?",
+  "adlibs": {
+   "porn": {
+    "1": "funny porn descriptors"
+   },
+   "sandwich": {
+    "1": "sandwiches"
+   }
+  },
+  "points": [
+   "02020010101"
+  ]
+ },
+ "020200102": {
+  "string": "You know what? You're right. Let's get back to it.",
+  "points": [
+   "0202001020"
+  ]
+ },
+ "0202001020": {
+  "string": "@wall",
+  "adlibs": {
+   "DELETE": {
+    "1": "\tDELETE"
+   }
+  },
+  "points": "TO THE STORY()"
+ },
+ "02020010101": {
+  "string": "Well, nothing, I guess. I just wasn't expecting it, that's all.",
+  "points": [
+   "020200101010"
+  ]
+ },
+ "020200101010": {
+  "string": "That's understandable. But @wall, so let's get back to the story now.",
+  "adlibs": {
+   "break": {
+    "1": "I'm getting a little tired of writing this silly dialogue branch. Turns out, it isn't as fun choosing litttle bratty button options. Maybe I can find better ways to spend that shift away from the main story, and in the future I no doubt will. But it's kind of a lot of work for a joke, and I just don't think it's worth it. I'll get better at knowing when to do it over ting, no doubt, but I think it's enough for now"
+   },
+   "intact": {
+    "1": "you really are excited to spend time with Demetri"
+   }
+  },
+  "points": "BACK TO THE NARRATIVE()"
+ },
+ "020200201": {
+  "string": "Go to his place",
+  "points": [
+   "0202002010"
+  ]
+ },
+ "0202002010": {
+  "string": "You weigh the options for a moment or two. @wall, to get to this point you did @clean. But, going to his place feels pretty nice.\\nYou get ready to go, but then @wall. You decide @wall.",
+  "adlibs": {
+   "break": {
+    "1": "But you come to quickly realize that is is where one of the big, branching narratives would go, if I had more time to write. If the more game-like portion of the game was ready, then you'd have options like 'look around', 'go to his place', 'wear my scantily clad clothes' or whatever. But mainly, it would mean that there would be a whole different story that goes here. A new part of the world to explore, and a true, branching pathway. A choose-your-own-adventure in its full right. I just don't have the time to commit to that right now. So I gotta leave you with a fake choice real quick (so sorry about that!), but I wanted to put it here, because if I ever get into the position to expand on this story, I would seriously love to! But I'll redirect you to the actual story continuation soon. Besides",
+    "2": "you grudgingly abide by the nattator's wishes. Not like you have much choice",
+    "3": "to see what the narrative looks like when the writer is able to, you know, write. You also understand that he's doing his bestest, and you love and appreciate him for that, more than you could even express. But that's okay, because he decided to express it for you anyway, as he sits in the cafe and talks to himself under the guise of talking to you, the reader. Thanks for reading, by the way. It means a lot that you're checking out my little project!!! And if you did get to this little dialogue section, I wanna make a tiny call to action, if that's okay. I really would love to hear what you think about it! I mean, I know there's tons of typos and stuff, no doubt. And it's a little rough around the edges, but it's got some potential and all that. At least, it does to me. But I'd love it if you said hi <3 Anyway. Back to the story now"
+   },
+   "intact": {
+    "1": "On the first hand, it does sound nice to head to his place. Then again",
+    "2": "something stops you. You get the strangest feeling, as though going to Demetri's place just isn't the right move after all",
+    "3": "to invite him over to your place after all"
+   },
+   "messy": {
+    "1": "make the active decision not to clean up your space. It would be silly to let that fun little bit of description go to waste"
+   },
+   "tidy": {
+    "1": "get all your chores done and get your place nice and tidy. It'd be a shame not to show some of that off"
+   },
+   "normal": {
+    "1": "sit around and not do much of anything, which is fine"
+   }
+  },
+  "points": [
+   "02020020101"
+  ]
+ },
+ "020200202": {
+  "string": "Have Demetri come to me",
+  "points": [
+   "0202002020"
+  ]
+ },
+ "0202002020": {
+  "string": "\"You got it!\" Demetri says. The enthusiasm in his voice is honestly @place. Although, @mood. ",
+  "adlibs": {
+   "city": {
+    "1": "a little infectious"
+   },
+   "town": {
+    "1": "pretty pleasant"
+   },
+   "bumfuck": {
+    "1": "nice, if not a little incongruous with your ordinarily quiet way of life"
+   },
+   "bad": {
+    "1": "it does make you wonder if having him over is really that good of an idea. All day you just haven't been able to shake this miasma around you. He seems chipper. What if your mood ends up ruining his? Furthermore, what if Demetri ends up annoying you too? You'd hate for that to be the outcome. Although, honestly, maybe it can't be helped"
+   },
+   "good": {
+    "1": "you were already feeling pretty darn good about things. Having Demetri over is just icing on the cake. It promises to be quite the good encounter indeed!"
+   },
+   "depressed": {
+    "1": "you are still not sure if you are up to having company or not. Even with him coming over to you and all, it still feels like a lot of work. Everything does, these days. You just hope that it isn't a bad time. Or, not worse than any of the others, at least"
+   },
+   "normal": {
+    "1": "it has to be said, that you feel pretty okay about it all. His interest neither excites you, nor disappoints you. Your decision to invite him over was definitely a decision. You await its outcome in a monotone, beige sort of way"
+   }
+  },
+  "points": "02020020200"
+ },
+ "02020020101": {
+  "string": "In which case, I suppose I'll invite Demetri over, by saying \"Hey Demetri. Come on over to my place, @sexy\"",
+  "points": [
+   "020200201010"
+  ],
+  "adlibs": {
+   "porn": {
+    "1": "you sexy fun-bud"
+   },
+   "sandwich": {
+    "1": "my fellow sandwich loving pall"
+   }
+  }
+ },
+ "020200201010": {
+  "string": "You decide to invite Demetri over, and he's delighted for the invitation",
+  "points": "DEMETRI COMES OVER()"
+ },
+ "02020020200": {
+  "string": "He should honestly be over pretty soon. Any moment now, really. Although, it all really does give you pause for concern, or contemplation if nothing else.",
+  "points": [
+   "020200202001",
+   "020200202002"
+  ]
+ },
+ "020200202001": {
+  "string": "Sounds good. Contemplate away",
+  "points": [
+   "0202002020010"
+  ]
+ },
+ "0202002020010": {
+  "string": "I'll be happy to. @why ",
+  "adlibs": {
+   "positive": {
+    "1": "In inviting Demetri over, as well as taking in the rest of the scene around you, well, it's hard to say exactly why. But it gives you sort of a positive outlook about things."
+   },
+   "negative": {
+    "1": "Now that you've invited Demetri over, and now that you have pause in the time it will take him to come over - you can't help but wonder what's the point of it all."
+   }
+  },
+  "points": "02020020200100"
+ },
+ "020200202002": {
+  "string": "I'll wait patiently for Demetri to arrive. I'm excited for @sexy",
+  "points": [
+   "0202002020020"
+  ],
+  "adlibs": {
+   "porn": {
+    "1": "the porn. I heard there would be porn"
+   },
+   "sandwich": {
+    "1": "the sandwiches. What a silly narrative. Let's get to it"
+   }
+  }
+ },
+ "0202002020020": {
+  "string": "A sample, to see if it works",
+  "points": [
+   "02020020200201"
+  ]
+ },
+ "02020020200100": {
+  "string": "You look around you. You see @clean. @mood. ",
+  "adlibs": {
+   "messy": {
+    "1": "the dirty clothes which got strewn about the front room"
+   },
+   "tidy": {
+    "1": "the throw pillows on the couch placed in just the right way"
+   },
+   "normal": {
+    "1": "how regular everything is",
+    "2": "And it's okay with you"
+   },
+   "bad": {
+    "1": "It kind of fills you with sort of a disgust. It looks just like it always does"
+   },
+   "good": {
+    "1": "And for all of its beauty (or perhaps even because of its flaws), you're happy for it"
+   },
+   "depressed": {
+    "1": "You wonder if some people get a sense of joy out of it. It's hard to imagine, because it's so far removed from how you feel just about every day"
+   }
+  },
+  "points": "020200202001000"
+ },
+ "020200202001000": {
+  "string": "@why. You give a heavy sigh, because it really is a lot to take in.\\nOr, is it? After all, these aren't abnormal thoughts. @wall. And although @mood, you wonder if others don't feel the same way that you do. Right now, in this world, with all of its @place, surely @why. Surely it must add up to @why.",
+  "adlibs": {
+   "positive": {
+    "1": "Yet, it's a little wonderful for what it is. You can't help but feel this way. No matter if you happen to be angry, a little upset, or happy or moody or anything inbetween. It all feels like it's supposed to be happening exactly how it is. You aren't sure if you believe in fate, or destiny, or any of that stuff. As surely as you met Demetri, or moved to this place which you love - things seem to be exactly as they are supposed to be. Something about this moment, and it's just impossible to say exactly what it is - something just feels right. You can't say more than that, you wouldn't even know where to start",
+    "2": "this was all meant to be",
+    "3": "something great. Greater, even, than what we individually suspect to be possible. The world is good. And you couldn't begin to explain why, but this moment, right now, feels like part of it"
+   },
+   "negative": {
+    "1": "Is this really all there is? A dirty dish, or a tidy room. Whether you had tons of friends, or invited over Demetri every damn night, or whether you'd never met him, or whether you had or hadn't gotten that job, none of it means anything. Not really. We all die, after all. Every one of us. The stranger in line ahead of you in the grocery store? He won't make it. He can't possibly make it, because the best case scenario is that the sun blows up one day and the world as we know it blows up alongside it. Or, depending on your narrative, maybe the BEST case would be everyone dying far sooner than that.\\nYou don't always fall into that camp, of course. Some people aren't just nihilists, but straight up advocates for a reset. Let nature take us, let the world be reborn, and the sooner it happens the better. It's all just a very negative space to be in. But, it feels right. Like exactly the way things should be",
+    "2": "it doesn't add up to much at all",
+    "3": "emptiness. A return to where it all started. In what might be a bleak outlook - but you prefer to think of it as pure. Nothing is built to last. There's no use in trying to make it something more"
+   },
+   "break": {
+    "1": "And the author really isn't sure that it's going to come together with all these adlibs after all. I'm learning, okay? And I promise, I can write fairly well when it's a single narrative. So in the future, I might cool it a little with all these custom choices. I mean, don't get me wrong, it's fun to offer them. And in theory, it's fun to write. Okay, I'll stop being a Scrooge, it IS fun to write. But it's frustrating not to be able to consistently wax poetic. That's my normal writing style. Doing it all choppy is just, really hard to keep track of. It's a brand new type of style, really. So, thanks for bearing with my as I figure it out"
+   },
+   "intact": {
+    "1": "Everyone must feel this way every now and then"
+   },
+   "bad": {
+    "1": "you don't feel especially great right now"
+   },
+   "good": {
+    "1": "at the moment you're feeling pretty good"
+   },
+   "depressed": {
+    "1": "right now everything just feels really gray"
+   },
+   "normal": {
+    "1": "things are honestly pretty okay"
+   },
+   "city": {
+    "1": "possibility"
+   },
+   "town": {
+    "1": "charm"
+   },
+   "bumfuck": {
+    "1": "greenery and natural charm"
+   }
+  },
+  "points": [
+   "0202002020010001"
+  ]
+ },
+ "0202002020010001": {
+  "string": "It feels like Demetri will be here soon, but I'm still feeling a little @why",
+  "points": [
+   "02020020200100010"
+  ],
+  "adlibs": {
+   "positive": {
+    "1": "existential"
+   },
+   "negative": {
+    "1": "moody and depressed. Anything else you could throw my way?"
+   }
+  }
+ },
+ "02020020200100010": {
+  "string": "@wall. You sigh, and shake your head free of whatever rabbit hole your head just fell down. @wall. With that, you think you hear a knock at the door. Demetri made his way over in @swear record time.",
+  "adlibs": {
+   "break": {
+    "1": "And I'll be honest with you real quick. I accidentally pressed 'enter' too soon, so there was only one button option just now, when I intended there to be two. I was gonna either hit you up with some more weird existential whatever I was just writing. But, uh. That sort of thing is REALLY hard to fix in post right now. So, you get this instead. Sorry about that",
+    "2": "Although, now that you're here, I'll just clear the air real quick. Mainly because I just, might as well. I'm extremely excited to actually get started with writing the story itself (this has all been taking a very long time), but about that weird existential thing just now. It was an attempt at writing something more intense (I mean, clearly), which is normally what my writing style sort of is. I love writing sexy things, but I love writing them in almost a real way. These are people we're dealing with. Sure, we call them animals and give them funny descriptors. We have fun with it. But there's a world of possibility, and though and emotion to be had. To me, it's freedom, in a way.\\nI have no idea why I decided to type this all out just now, but fuck it, we'll do it live. I'm here. And, you're here. I mean, clearly. Which is interesting in its own right. I mean, surely you must be here. That hasn't ever been the case before. At least, not really. It always feels like, whenever you post a story, that what is nobody reads it? And, first of all, despite this particular narrative probably being a little hard to get your hands on (although I have been trying my best!), I think it stands out enough as to be worth checking out. Maybe it's a more alluring thing to poke around than, say, yet another furry story. I mean, aside from the big names in the fandom, how are you supposed to know what books ore worth reading? What stories to check out, and what even sets them apart in the first place?\\nIt's something just about every author has to go through. Probably all artists, really. If not all people in general. Even down to when you decide to change up your style. For me, it was starting to wear brighter colors, and things which were more cute. But, in the human world, I'm broad, bearded, and nearly six feet fall. I am NOT the typical, cute gay guy. So I felt really insecure trying to wear different things. It's that same principle. What if nobody sees it, what if nobody cares? It's a frightening thing, to put yourself out there. And it's hard to tell which outcome would be worse. Maybe nobody likes it, but at least they saw what you were trying to do. It might be even worse if nobody notices it at all.\\nIf I were truly to get existential, basically, that's the way I would do it. What you just read, right here, right now. That's one of the general beliefs I have. As true and real as it gets, pretty much. I have other thoughts about loads of other things. This is just some of them. But, that isn't even what I wanted to light upon just now. Not to mention that none of this was my intention at all. I mean, I just accidentally pressed enter just now. A minor goof, when I was trying to do something new. And a goof can be frustrating. But it can also become whatever you want it to be. And whether you want anything specific from it or not, whichever decision you end up making is going to become how things are. So just, make a decision. For Christ's sake, make a goddamned choice.\\nSorry. That felt really intense, especially given this bizarre segment in what's honestly a pretty strange medium here. I mean, let's be honest that it's pretty weird. But anyway, I said it more in my own interest than in yours. It isn't about imagining some reader, somewhere out there, someone to notice your thoughts and who you are, and thus to receive validation for all the work you've done. It's just about being oneself. Up to and including putting arguable nonsense right in the middle of a small quadrant of a creative project you just, decided to do. And THAT is what I've been trying to say with all this.\\nYou, the reader, are literally here. This bizarre little aside, these silly thoughts, this quasi-philosophical wanna-be whatever - this stuff never sees the light of day. I mean, honestly. This stuff just isn't spoken. And when it is, literature just isn't the medium for it. I mean, I could disguise it in a narrative. I've done that before, with a SoFurry series I wrote, and with my book I wrote earlier this year (2022, for what it's worth). Those things had a lot of meaning to me, which was wrapped up in the characters and stories I had decided to tell. And it's freeing and rewarding, and typically the sort of stuff people do enjoy reading. Or at least, I'd like to think it is.\\nBut this raw stream of consciousness, this sort of thought dump - this stuff is the stuff of journals or diaries, or MAYBE enthusiastic, moody blog posts by authors or poets whom nobody really listens to. It's talking for talking's sake, and without having anything to actually say, and certainly nobody to say it to. That's my experience, at least. But this, right now, is different. I swear, it HAS to be different.\\nI'm sitting at a cafe right now. I've been visiting a friend for a while, which is where I was finally able to finish out my game. If this is a game, at least. I haven't decided yet what it actually is. And I reached the point somewhere along the line of, while trying to write a fairly unique style of fiction, to be able to blatantly insert honest (if not unbidden) section of my self. There isn't a thought in my mind right now about 'nobody will read this, why bothter saying it?' or especially there is no 'This isn't the right place for it. This story isn't right for it. I shouldn't say that here.' There isn't any of that at all.\\nThe reason for that is that, you literally don't have to be here. I mean, you might not have found it. It's sort of buried somewhere strange in this weird thing which, honestly, I'm kind of surprised you stumbled on in the first place. And if you HAD found this super weird block (and I mean, BLOCK) of text, you well could have scrolled past it, and back to the fiction I promised. And I do intend to actually write some fucking fiction. But it's already starting to get pretty late, and I sure have my work cut out for me. It's gonna be a late night, for sure.\\nBut anyway. You are still reading this. If I'm talking to nobody, that's fine. I talk to nobody all the time. But by putting this here, and by publishing it, in a space where it honestly doesn't belong, it actually has a chance to be seen. Not that it being seen is the point. But it's wild to imagine a world where I made a boo-boo and pressed enter a little too soon, and I decided to just go for it and make something of it just because I wanted to, and to be comfortable enough in making that decision enough, as to just simply decide to do it. I know it's weird, and probably more than a little meaningless. But to me, it's really cool. It's just, a really cool space to be in.\\nIt is unexpected, though. Who knew that by trying to write out a brief, existential moment in this weird CYOA thingy I made, that I would end up ACTUALLY existential. And for you to actually be here, actually reading it. And if there is nobody here - hello, nobody. And by that, I mean myself. But to you, the honest-to-god reader of my strange thing - hello. I hope you're doing well. And that's a heartfelt thing, more of less.\\nI don't have a way to really express this. And I promise I haven't been drinking or nothing like that. You kidding me? I'm keeping track of so many weird strands by writing this, I couldn't actively drink right now if I tried. I will try, though. I'm gonna go have a pint or three right now, because this exact page you've been reading has actually taken a lot out of me. But I'm at a cafe right now. Wearing a pink jacket, and like a yellow and light blue pusheen tanktop. It's cold right now. I'm by the window, and it's a cold part of the year. I've been increasingly worried about accidentally pressing enter again, especially because my fingers have gotten a little, you know. Cold. I'm also wearing pants I found at the thrift store in the girl section. They are patterned and stretchy, and not obviously not meant for guys. They were just about the first thing I bought for myself when I decided I wanted to start branching out. And it's little decisions like that which have ultimately lead me (and, to some extent, you) to this exact spot.\\nSo, wherever you are, and whoever you are - I genuinely hope that you're doing well. I've been up and down, personally. But I can generally say that right now, things are more or less up. And that is WEIRD for me to be able to say. It's not my usual. It's nice, don't get me wrong. But I catch myself waiting for the next bad thing to happen. You know?\\nBut anyway. Not that I'm a paragon of example. Far from it. But it feels really, REALLY nice to recognize myself as having grown. This narrative is just some sort of unexpected milestone from me, is all. So, first of all, thanks for checking it out. But, if you're going through anything similar at all - good luck my guy. I mean, for all I know, you're gonna nened it. Lord knows I did, and still do. I'm in uncharted territory these days, just swimming along and trying my best. And, I imagine that you probably are too.\\nSo, Godspeed, and keep on keeping on. No idea who this has reached. It's either nobody or somebody. And if it happened to be somebody, hell, if it happens to be anybody at all. I hope that you're doing well.\\nThis has been Finn. I'm gonna go have that pint, now. If I'm lucky I still hit happy hour, so wish me luck! But as for you, I now retutrn you to your regular scheduled program. Thanks for tuning in."
+   },
+   "intact": {
+    "1": "I'm sorry you were left feeling that way. But you know that it never takes Demetri long to show up when the decision has been made",
+    "2": "At any rate, Demetri will be here soon, and you're excited to spend some quality time with him"
+   },
+   "swear": {
+    "1": "damn near"
+   },
+   "noswear": {
+    "1": "just about"
+   }
+  },
+  "points": "020200202001000100"
+ },
+ "020200202001000100": {
+  "string": "\"Thanks for having me over!\" He says. He's happy to see you right away, and you're really quite happy to see him too.\\nYou wonder if you might take him back to your @sexy right away, or if it's more polite to have a quick chat before the @sexy.",
+  "adlibs": {
+   "porn": {
+    "1": "bedroom",
+    "2": "night's activities *wink wink* *nudge nudge*"
+   },
+   "sandwich": {
+    "1": "kitchen to make some sandwiches",
+    "2": "platonic making of tasty, breaded delight"
+   }
+  },
+  "points": ["reset"]
+ },
+  "reset": {
+   "string": "The writer and developer now closes off the narrative for now, to use the story so far for testing, with more story to be on the way!",
+   "points": "THE STORY ENDS HERE()"
+  }
+}

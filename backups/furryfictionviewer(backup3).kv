@@ -1,0 +1,229 @@
+#:kivy 2.1.0
+    #Original Pixel Count: 2550, 3300
+        #size_hint(sh) = ratio of center, sub border x 2
+        #pos_hint(ph) = origin point, sub ratio of x and y border
+        # size_hint: .8118, .8545
+        # pos_hint: {'x': .0941176, 'y': .0727274}
+
+#:set shx .8118
+#:set shy .8545
+#:set phx .0941176
+#:set phy .0727274
+
+<Porn@Image>:
+    allow_stretch: True
+    keep_ratio: False
+    size: 500, 500
+    source: 'porn.png'
+    size_hint: None, None
+
+<MyPaintWidget@Widget>:
+    canvas:
+        Rectangle:
+            size: 300, 300
+            source: 'porn.png'
+            pos_hint: {'top': 1}
+
+<TitlePage@Label>:
+    markup: True
+    text: 'placeholder'
+    text_size: self.width, None
+    font_size: 32
+    height: self.texture_size[1]
+    size_hint_y: None
+<TitleWindow>:
+    id: title
+    orientation: 'vertical'
+    size: root.size
+    pos: root.pos
+    TitlePage:
+        size_hint: 1, .9
+    Button:
+        height: 100
+        size_hint: 1, None
+        text: 'Button text'
+
+<BackgroundImage@Image>:
+    Image:
+        source: 'pageborder.jpg'
+        size: root.width, root.height
+        size_hint: None, None
+        keep_ratio: False
+        allow_stretch: True
+        color: .8, 0, .6, 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<FunkyButton>:
+    background_color: .5, 0, 1, .9
+    size_hint: 1, None
+    height: 100
+    text_size: self.width, None
+    font_size: 24                 
+
+<FinalButton>:
+    background_color: 1, 0, 0, 1
+    text: 'You have reached the end of this branch.\nPress here to try again!'
+    text_size: self.width, None
+    size: self.texture_size
+    font_size: 36
+
+
+<TemplateButton>:
+    background_color: .3, 1, .3, 1
+    font_size: 24
+    text_size: self.width, None
+    size: self.texture_size
+    size_hint: 1, None
+
+<ResponseReminder>:
+    halign: 'center'
+    markup: True
+    font_size: 28
+    text_size: self.width, None
+    padding: (10, 0)
+    height: self.texture_size[1]
+    size_hint_y: None
+
+<MyScrollView@ScrollView>:
+    bar_width: 5
+    bar_color: 0, 0, 0, .5
+    bar_margin: 2
+
+<TextLabel>:
+    markup: True
+    font_size: 26
+    size_hint_y: None
+    height: self.texture_size[1]
+    text_size: self.width, None
+    padding: (10, 0)
+    id: text_label
+
+
+
+
+
+
+<SceneScreen>:
+    id: 'scene'
+#The Page Border
+    BackgroundImage:
+
+#The Content Within Page Border
+    BoxLayout:
+        id: full_window
+        orientation: 'vertical'
+        size_hint: shx, shy
+        pos_hint: {'x': phx, 'y': phy}
+
+        #The top section of the app, the text
+        MyScrollView:
+            id: mainscroll
+            size_hint: 1, .67
+            do_scroll_y: True
+            # scroll_y: 0
+            #The text window
+            GridLayout:
+                cols: 1
+                height: self.minimum_height
+                size_hint_y: None
+                id: main
+
+
+
+                Label:
+                    markup: True
+                    size_hint: 1, None
+                    text: 'My Prototype Story\n\n[size=36]Because I wanted a title page\nEven if I do not need one[/size]'
+                    font_size: 72
+                    bold: True
+                    text_size: self.width, None
+                    size: self.texture_size
+                    padding: (40, 40)
+                    halign: 'center'
+
+                Label:
+                    size_hint: 1, None
+                    text: 'By Finn Panther'
+                    font_size: 32
+
+
+
+
+
+
+
+
+                Label:
+                    markup: True
+                    id: text_output
+                    text: root.display_text
+                    font_size: 26
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    padding: (10, 0)
+
+
+
+
+
+
+
+
+        #These are the buttons for dialogue choices
+        MyScrollView:
+            size_hint: 1, .33
+            padding: (100, 100)
+
+            GridLayout:
+                id: player_responses
+                cols: 1
+                size_hint: 1, None
+                size: self.width, 400
+
+    TitleWindow:
+
+<TitleWindow>:
+    id: title
+    BackgroundImage:
+
+    BoxLayout:
+        id: full_window
+        orientation: 'vertical'
+        size_hint: shx, shy
+        pos_hint: {'x': phx, 'y': phy}
+
+        Label:
+            markup: True
+            size_hint: 1, .6
+            text: 'My Prototype Story\n\n[size=36]Because I wanted a title page\nEven if I do not need one[/size]'
+            font_size: 72
+            bold: True
+            text_size: self.width, None
+            size: self.texture_size
+            padding: (40, 40)
+            halign: 'center'
+
+        Label:
+            size_hint: 1, .25
+            text: 'By Finn Panther'
+            font_size: 32
+
+        FirstButton:
+            text: 'Begin the story'
+            font_size: 38
+            size_hint: 1, .2
+
+SceneScreen:

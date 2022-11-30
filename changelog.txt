@@ -1,0 +1,6 @@
+0.0.0
+    Scene reader enters alpha stage. First public upload.
+
+0.0.1
+    Minor UI improvement when restarting game narrative
+    Slight refactor of code, cleaner comments

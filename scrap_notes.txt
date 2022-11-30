@@ -1,0 +1,42 @@
+def boundless_void():
+    pass
+def closet():
+    pass
+def test_room():
+    test_room_dict = {
+        "look at": "You can't look at the room, you are already in it.",
+        "description": "The room you are in is fine, if not a little unexpected. In particular, this is clearly a fantasy world. Anything could happen. With the magic of literature, you could be standing in any room imaginable. Oh, just imagine, the places you could be!\n... so why is this so clearly textured as a test room?\nI mean, for real. The walls, floor, and ceiling are all grey and covered in large gridlines, as though a developer would use them as roadmap to determine how large the room is. It isn't fair to say the walls are tiled, even, although they do look that way. To call them tiled brings to mind a manner of actual texture. As though the room was made of plates, bound together.\nBut no. This is just an uninspirng, grey room, with some lines marking a grid. In honesty, it almost feels a little lazy. Did the author seriously decide to write an unfinished test room, in order to test his... well, room?\nYou decide not to think too hard about it, and instead continue to look around, to see if there are any interactables.",
+        "interactables": ["bed", "dresser", "closet", "door"],
+        "bed": {
+            "look at": "The bed, like everythign else in this room, is as yet untextured. You can tell it's a bed, though, because printed on it is the word, 'BED'. It is grey as well, although an off shade from the walls, floor, and ceiling, which all share the same tone. There is also a red strip across the bed, towards the top of it. Just above it are two, neatly labeled squares, each identified with large text reading 'PILLOW'. So, at least some attention to detail was paid.\nThe stripe across the bed actually gives a fair impression that it's supposed to be a blanket, or at least, that it would become one, later in the game's development cycle. In all, it gives you a strange suspicion that you aren't supposed to be here. It's an uncanny room to be in. This bed is uncanny.\nYou get more uncomfortable with it the more you think about it. So you try not to think about it too hard. Easier said than done.",
+            "interactables": ["pillow", "blanket", "pillows"],
+            "pillows": "Try looking at just one pillow.",
+            #TODO WORK ON PILLOW
+            "pillow": "WORKONTHIS",
+            "blanket": {
+                "look at": "The 'blanket' is checkered, like the rest of the room (annd each object inside it), although the checker pattern is more tight than the large, sweeping squares which make up the room.\nYou feel a sense of longing towards the bed. It seems like it would be quite inviting, to turn the blanket down, and to crawl inside and nestle up, warm and cozy. But unfortunately, this is just a test room. This is just a test blanket. You cannot crawl into it, you cannot get cozy.\nPerhaps someday you will be able to. But this is not that day.",
+                "crawl into": "I literally just said that you can't do that. Come on, man. Don't be like that.",
+                "be like that": "You ignore the game developer and crawl into the bed anyway. Amazingly, after a little bit of prying, you are actually able to life up the blanket, and crawl inside all the same!\nThat is, you would do that, if opening hte blanket didn't unleash a furious wormhole which sucks you up and tosses you into a boundless void.(1)",
+                1: boundless_void()
+            }
+        },
+        "dresser": {
+            "look at": "The dresser is, honestly, amazing. It's checkered and non-textured like everything else in this room. But the markings on this dresser in particular are extravagant. The design artist behind it clearly took pride in his job. And looking at this dresser nnow, you can't help but take al ittle bride in him back.\nSomewhere out there, in this grand world, a junior developer among junior developers smiles. Your love of his dresser empowers him, and lets him know that he is on the right path. If he can make a dresser as great as this, then surely he can move mountains and tame seas, for the world must surely belong to him. Such is the power of the dresser. Such is the power of your belief.\n... there is nothing additionally interactable about this dresser. You wonder why the developer put it in."
+        },
+        "closet": {
+            "look at": "There isn't anything terribly special about the closet by looking at it. It's just two large, accordion looking doors which have the text 'CLOSET' printed across the both of them. It does, however, look like a delightful thing to go to.",
+            "go to": closet()
+        },
+        "door": {
+            "look at": "The door, interestingly enough, is not labeled as a door. But it is the most clearly detailed object in the room. For it looks like a door. An honest to god door. It's brown, and it's got those weird, kind of wanna-be fancy grooves in it, as to mark it as an outside door. It's unmistakable, really. You get excited at the prospect of getting out of this weird, unfinished game space.\nThere is no window on this door to look out from, but there is a door handle.",
+            "interactables": ["door handle"],
+            "door handle": {
+                "boolean": door_key_found,
+                True: "The door seems like it is locked. Good think you have the key for it!",
+                False: "The door is locked, unfortunately. You sure hope the key is somewhere inside this incomplete room. It'd be a major bummer if there wasn't any way out.",
+            }
+        }
+    }
+
+def cafe_scene():
+    pass

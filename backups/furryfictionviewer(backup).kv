@@ -1,0 +1,160 @@
+#:kivy 2.1.0
+    #Original Pixel Count: 2550, 3300
+        #size_hint = ratio of center, sub border x 2
+        #pos_hint = origin point, sub ratio of x and y border
+        # size_hint: .8118, .8545
+        # pos_hint: {'x': .0941176, 'y': .0727274}
+
+
+SceneScreen:
+
+<WindowManager>:
+    SceneScreen:
+
+
+
+
+
+<SceneScreen>:
+    name: 'scene'
+#The Page Border
+    Image:
+        source: 'pageborder.jpg'
+        size: root.width, root.height
+        size_hint: None, None
+        keep_ratio: False
+        allow_stretch: True
+        color: 1, 0, 4, .6
+
+#The Content Within Page Border
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: .8118, .8545
+        pos_hint: {'x': .0941176, 'y': .0727274}
+
+        #The top section of the app, the text
+        ScrollView:
+            size_hint: 1, .67
+
+            #The text window
+            Label:
+                id: text_output
+                text: root.display_text
+                font_size: 26
+                size_hint_y: None
+                height: self.texture_size[1]
+                text_size: self.width, None
+
+        #These are the buttons for dialogue choices
+        ScrollView:
+            size_hint: 1, .33
+
+            #Box Layout which contains many buttons
+            BoxLayout:
+                id: player_responses
+                orientation: 'vertical'
+                size_hint: 1, None
+                size: self.width, 400
+                Button:
+                    text: root.button_text
+                    font_size: 26
+                    on_press: root.generate_buttons()
+    Button:
+        id: sample_button
+        size_hint: None, None
+        size: 100, 100
+        text: 'SAMPLE BUTTON!'
+        text_size: self.width, None
+        halign: 'center'
+
+
+
+
+<FunkyButton>:
+    background_color: .5, 0, 1, .9
+    size_hint_y: .5
+    size: self.texture_size
+    text_size: self.width, None
+    font_size: 24
+
+<FinalButton>:
+    background_color: 1, 0, 0, 1
+    text: 'You have reached the end of this branch.\nPress here to try again!'
+    text_size: self.width, None
+    font_size: 36
+
+<GameScreen>:
+    name: 'game'
+#The Page Border
+    Image:
+        source: 'pageborder.jpg'
+        size: root.width, root.height
+        size_hint: None, None
+        keep_ratio: False
+        allow_stretch: True
+        color: 1, 0, 4, .6
+
+#The Content Within Page Border
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: .8118, .8545
+        pos_hint: {'x': .0941176, 'y': .0727274}
+
+        #This will be a game image
+        Image:
+            source: 'pageborder.jpg'
+            size_hint: 1, .3
+            keep_ratio: False
+            allow_stretch: True
+            color: .5, .5, .5, .6
+
+        #The mid section of the screen, the game text
+        ScrollView:
+            id: game_scroll
+            size_hint: 1, .6
+
+            #The game text window
+            Label:
+                id: text_output
+                text: 'Ths is game text!!! I love this game text!!! \n' * 100
+                font_size: 26
+                size_hint_y: None
+                height: self.texture_size[1]
+                text_size: self.width, None
+
+        PlayerInputSection:
+
+<PlayerInputSection>:
+    size_hint: 1, .1
+
+    TextInput:
+        id: text_input
+        multiline: False
+        hint_text_color: 1, 1, 1, 1
+        background_color: 0, 0, 1, 1
+        font_size: 26
+        hint_text: 'Enter your response.'
+        foreground_color: 1, 1, 1, 1
+        on_text_validate: root.on_text_validate()
+
+    Button:
+        id: submit_button
+        text: 'SUBMIT'
+        size_hint: .15, 1
+        font_size: 26
+        disabled: True
+        background_color: 0, 0, 1, 1
+        on_press: root.on_submit_button_press()
+    
+    Button:
+        text: 'HELP'
+        font_size: 26
+        size_hint: .15, 1
+        background_color: 0, 0, 1, 1
+        id: help_button
+        on_press: root.on_help_button_press()
+
+    Label:
+        id: clock
+        text: root.time_display
+        size_hint: .1, 1
